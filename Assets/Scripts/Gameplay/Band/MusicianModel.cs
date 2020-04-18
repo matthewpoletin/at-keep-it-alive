@@ -11,6 +11,14 @@ namespace KnowCrow.AT.KeepItAlive
         Trumpet = 3,
     }
 
+    public enum StageState
+    {
+        OffStage = 0,
+        WalkingToStage = 1,
+        OnStage = 2,
+        WalkingFromStage = 3,
+    }
+
     public class MusicianModel
     {
         public MusicianType MusicianType { get; private set; }
@@ -29,9 +37,53 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
+        public event Action<StageState> OnStageStateChanged;
+
+
+        private StageState _stageState = StageState.OffStage;
+
+        public StageState StageState
+        {
+            get => _stageState;
+            set
+            {
+                _stageState = value;
+                OnStageStateChanged?.Invoke(_stageState);
+            }
+        }
+
+        public void ToggleStageState()
+        {
+            switch (_stageState)
+            {
+                case StageState.OffStage:
+                {
+                    StageState = StageState.WalkingToStage;
+                    break;
+                }
+                case StageState.WalkingToStage:
+                {
+                    StageState = StageState.WalkingFromStage;
+                    break;
+                }
+                case StageState.OnStage:
+                {
+                    StageState = StageState.WalkingFromStage;
+                    break;
+                }
+                case StageState.WalkingFromStage:
+                {
+                    StageState = StageState.WalkingToStage;
+                    break;
+                }
+            }
+        }
+
+        
         public MusicianModel(MusicianType musicianType)
         {
             MusicianType = musicianType;
+            ManaLevel = 1f;
         }
     }
 }
