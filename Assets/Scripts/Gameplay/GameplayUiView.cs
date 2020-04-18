@@ -10,6 +10,7 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private List<MusicianWidgetItemView> _musicianWidgets = null;
         [SerializeField] private RectTransform _bubbleContainer = null;
         [SerializeField] private GameObject _bubblePrefab = null;
+        [SerializeField] private GameObject _activeStateContainer = null;
         [SerializeField] private GameObject _gameInfo = null;
 
         private readonly List<BubbleWidget> _bubbles = new List<BubbleWidget>();
@@ -21,11 +22,13 @@ namespace KnowCrow.AT.KeepItAlive
             _impressionWidget.Initialize(impressionModel);
             foreach (MusicianWidgetItemView musicianWidget in _musicianWidgets)
             {
-                MusicianModel musicianModel = musicians.FirstOrDefault(model => model.MusicianType == musicianWidget.MusicianType);
+                MusicianModel musicianModel =
+                    musicians.FirstOrDefault(model => model.MusicianType == musicianWidget.MusicianType);
                 if (musicianModel == null)
                 {
                     Debug.LogError("MusicianModel not found");
                 }
+
                 musicianWidget.Initialize(musicianModel);
             }
         }
@@ -46,6 +49,16 @@ namespace KnowCrow.AT.KeepItAlive
             }
 
             _bubbles.Clear();
+        }
+
+        public void ShowActiveState()
+        {
+            _activeStateContainer.SetActive(true);
+        }
+
+        public void HideActiveState()
+        {
+            _activeStateContainer.SetActive(false);
         }
 
         public void ShowGameInfo()
