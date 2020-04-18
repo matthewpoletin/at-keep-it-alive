@@ -2,6 +2,7 @@
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
+
 #endif
 
 namespace KnowCrow.AT.KeepItAlive
@@ -16,9 +17,12 @@ namespace KnowCrow.AT.KeepItAlive
     public class MusicianView : BaseView
     {
         [SerializeField] private MusicianType _musicianType = default;
+        [SerializeField] private MusicianData _musicianData = null;
+        [SerializeField] private SpriteRenderer _spriteRenderer = null;
         [SerializeField] private Animator _animator = null;
 
         public MusicianType MusicianType => _musicianType;
+        public MusicianData MusicianData => _musicianData;
 
         private MusicianModel _musicianModel;
 
@@ -58,6 +62,16 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
+        public override void Tick(float deltaTime)
+        {
+            base.Tick(deltaTime);
+
+            if (_musicianModel.StageState == StageState.OnStage)
+            {
+                _musicianModel.ManaLevel -= _musicianModel.Data.ManaLossSpeed * deltaTime;
+            }
+        }
+
         private void OffStage()
         {
             _animator.Play(MusicianAnimationStates.Idle);
@@ -73,9 +87,12 @@ namespace KnowCrow.AT.KeepItAlive
             _movementTween?.Kill();
 
             _animator.Play(MusicianAnimationStates.Walk);
-            Vector3 currentPosition = transform.position;
+            Vector3 startPosition = transform.position;
+            var endPosition = new Vector3(startPosition.x + 10, startPosition.y, startPosition.z);
+            _spriteRenderer.flipX = Vector3.Dot(endPosition - startPosition, Vector3.right) < 0;
+            float movementDuration = (endPosition - startPosition).magnitude / _musicianModel.Data.MovementSpeed;
             _movementTween = DOTween.Sequence()
-                .Append(transform.DOMove(new Vector3(currentPosition.x + 10, currentPosition.y, currentPosition.z), 1))
+                .Append(transform.DOMove(endPosition, movementDuration))
                 .OnComplete(() => _musicianModel.StageState = StageState.OnStage)
                 .SetAutoKill(false)
                 .Play();
@@ -83,10 +100,15 @@ namespace KnowCrow.AT.KeepItAlive
 
         private void MoveFromStage()
         {
+            _movementTween?.Kill();
+
             _animator.Play(MusicianAnimationStates.Walk);
-            Vector3 currentPosition = transform.position;
+            Vector3 startPosition = transform.position;
+            var endPosition = new Vector3(startPosition.x - 10, startPosition.y, startPosition.z);
+            _spriteRenderer.flipX = Vector3.Dot(endPosition - startPosition, Vector3.right) < 0;
+            float movementDuration = (endPosition - startPosition).magnitude / _musicianModel.Data.MovementSpeed;
             _movementTween = DOTween.Sequence()
-                .Append(transform.DOMove(new Vector3(currentPosition.x - 10, currentPosition.y, currentPosition.z), 1))
+                .Append(transform.DOMove(endPosition, movementDuration))
                 .OnComplete(() => _musicianModel.StageState = StageState.OffStage)
                 .SetAutoKill(false)
                 .Play();

@@ -26,6 +26,8 @@
         public override void Tick(float deltaTime)
         {
             _model.ImpressionModel.ImpressionLevel -= 1f * deltaTime;
+
+            _view.Tick(deltaTime);
         }
 
         private void OnGameStateChanged(GameStateChangeReason reason)

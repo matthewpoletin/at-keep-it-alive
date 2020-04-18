@@ -22,6 +22,7 @@ namespace KnowCrow.AT.KeepItAlive
     public class MusicianModel
     {
         public MusicianType MusicianType { get; private set; }
+        public MusicianData Data { get; private set; }
 
         private float _manaLevel;
 
@@ -79,10 +80,11 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
-        
-        public MusicianModel(MusicianType musicianType)
+        public MusicianModel(MusicianType musicianType, MusicianData data)
         {
             MusicianType = musicianType;
+            Data = data;
+
             ManaLevel = 1f;
         }
     }

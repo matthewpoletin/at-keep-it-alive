@@ -115,4 +115,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _musicianType: 0
+  _musicianData: {fileID: 11400000, guid: f4130dd6c8839214ead53dbc6ba7a419, type: 2}
+  _spriteRenderer: {fileID: 1797276296373939255}
   _animator: {fileID: 8017257101340760614}

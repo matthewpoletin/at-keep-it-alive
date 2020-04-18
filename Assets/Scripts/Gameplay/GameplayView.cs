@@ -12,8 +12,8 @@ namespace KnowCrow.AT.KeepItAlive
 
         public void Initialize(GameplayModel model)
         {
-
             _bandView.Initialize(model);
+            _audienceView.Initialize();
             _uiView.Initialize(model.ImpressionModel, model.BandList);
         }
 
@@ -21,9 +21,9 @@ namespace KnowCrow.AT.KeepItAlive
         {
             base.Tick(deltaTime);
 
-            _uiView.Tick(deltaTime);
             _bandView.Tick(deltaTime);
             _audienceView.Tick(deltaTime);
+            _uiView.Tick(deltaTime);
         }
 
         public override void Dispose()
