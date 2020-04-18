@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 3c143b3aa8232494a89453feb2feb005
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3451763167454327277
+    second: musician_bass_walk_0
+  - first:
+      213: 3217138625231704497
+    second: musician_bass_walk_1
+  - first:
+      213: 4695056817751658615
+    second: musician_bass_walk_2
+  - first:
+      213: 7982325723638853850
+    second: musician_bass_walk_3
+  - first:
+      213: -1208491361816688037
+    second: musician_bass_walk_4
+  - first:
+      213: -1781129035537104202
+    second: musician_bass_walk_5
+  - first:
+      213: 1985486755564353429
+    second: musician_bass_walk_6
+  - first:
+      213: -1428679406208952428
+    second: musician_bass_walk_7
+  - first:
+      213: -5557641688487913640
+    second: musician_bass_walk_8
+  - first:
+      213: -1718806768701352214
+    second: musician_bass_walk_9
+  - first:
+      213: 6489754695755839987
+    second: musician_bass_walk_10
+  - first:
+      213: -885151184159466543
+    second: musician_bass_walk_11
+  - first:
+      213: 8114510872900372149
+    second: musician_bass_walk_12
+  - first:
+      213: 8882945799254634711
+    second: musician_bass_walk_13
+  - first:
+      213: 5447721448840302222
+    second: musician_bass_walk_14
+  - first:
+      213: 629284472630217638
+    second: musician_bass_walk_15
+  - first:
+      213: -1870863264172304458
+    second: musician_bass_walk_16
+  - first:
+      213: -8653280288188756070
+    second: musician_bass_walk_17
+  - first:
+      213: 4346359103812680817
+    second: musician_bass_walk_18
+  - first:
+      213: 5107766664258131706
+    second: musician_bass_walk_19
+  - first:
+      213: -2369524016861409823
+    second: musician_bass_walk_20
+  - first:
+      213: 4531779279966691663
+    second: musician_bass_walk_21
+  - first:
+      213: 3382753005499824853
+    second: musician_bass_walk_22
+  - first:
+      213: 6937071530086521214
+    second: musician_bass_walk_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: musician_bass_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 993
+        width: 145
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de174e4005027ef20800000000000000
+      internalID: 3451763167454327277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 994
+        width: 136
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1df16d88295ac20800000000000000
+      internalID: 3217138625231704497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 997
+        width: 129
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7701d5edc41382140800000000000000
+      internalID: 4695056817751658615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 998
+        width: 118
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0f4f614fae6ce60800000000000000
+      internalID: 7982325723638853850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 993
+        width: 98
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ac9c062839a3fe0800000000000000
+      internalID: -1208491361816688037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 746
+        width: 87
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b24da934982847e0800000000000000
+      internalID: -1781129035537104202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 742
+        width: 77
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597f7a34faddd8b10800000000000000
+      internalID: 1985486755564353429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 739
+        width: 88
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497dff646af4c2ce0800000000000000
+      internalID: -1428679406208952428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_8
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 737
+        width: 102
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85796c8745a4fd2b0800000000000000
+      internalID: -5557641688487913640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_9
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 736
+        width: 118
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6d40ab9529528e0800000000000000
+      internalID: -1718806768701352214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 497
+        width: 125
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f933f7f28d301a50800000000000000
+      internalID: 6489754695755839987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 498
+        width: 134
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db98af00bf47b3f0800000000000000
+      internalID: -885151184159466543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 503
+        width: 146
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6854975a88c9070800000000000000
+      internalID: 8114510872900372149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 505
+        width: 142
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0fe9bf320964b70800000000000000
+      internalID: 8882945799254634711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_14
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 507
+        width: 139
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e07616bc13a9b40800000000000000
+      internalID: 5447721448840302222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 263
+        width: 132
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab0bcdc4eaabb800800000000000000
+      internalID: 629284472630217638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 258
+        width: 112
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b79ea306cb5906e0800000000000000
+      internalID: -1870863264172304458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_17
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 255
+        width: 97
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f8e98cc6f59e780800000000000000
+      internalID: -8653280288188756070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_18
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 251
+        width: 76
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c3a01b39e515c30800000000000000
+      internalID: 4346359103812680817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_19
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 249
+        width: 89
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af610b218be62e640800000000000000
+      internalID: 5107766664258131706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 102
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed08300672cd1fd0800000000000000
+      internalID: -2369524016861409823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1
+        width: 118
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41e3e6ae3d14ee30800000000000000
+      internalID: 4531779279966691663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 6
+        width: 118
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dab3b79fe3f1fe20800000000000000
+      internalID: 3382753005499824853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_bass_walk_23
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 9
+        width: 135
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79584c6dcd654060800000000000000
+      internalID: 6937071530086521214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
