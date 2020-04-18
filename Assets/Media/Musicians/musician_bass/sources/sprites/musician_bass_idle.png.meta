@@ -1,25 +1,7 @@
 fileFormatVersion: 2
-guid: c1a82d71e3b33824bb1e6e667d2abdf2
+guid: 8534d4790836b6c4aa609a0f3818621f
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -6023983473891653267
-    second: musician_bass_playing_0
-  - first:
-      213: -5189140974001396229
-    second: musician_bass_playing_1
-  - first:
-      213: -5633148717104447075
-    second: musician_bass_playing_2
-  - first:
-      213: -3806557986958376417
-    second: musician_bass_stage_play_0
-  - first:
-      213: -490630426076890444
-    second: musician_bass_stage_play_1
-  - first:
-      213: -731324248124743358
-    second: musician_bass_stage_play_2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -49,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -58,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
+  alignment: 7
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -138,70 +120,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: musician_bass_stage_play_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 245
-        width: 136
-        height: 245
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f128b6acda36c2bc0800000000000000
-      internalID: -3806557986958376417
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_stage_play_1
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 245
-        width: 136
-        height: 245
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ba30b91a3ee039f0800000000000000
-      internalID: -490630426076890444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_stage_play_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 136
-        height: 245
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24125e69870d9d5f0800000000000000
-      internalID: -731324248124743358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

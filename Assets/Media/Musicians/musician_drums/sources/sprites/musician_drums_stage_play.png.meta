@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: c1a82d71e3b33824bb1e6e667d2abdf2
+guid: 683985354de82084da9c9d84aee58c62
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6023983473891653267
-    second: musician_bass_playing_0
+      213: -4881044455177373830
+    second: musician_drums_playing_0
   - first:
-      213: -5189140974001396229
-    second: musician_bass_playing_1
+      213: -4622984988061904840
+    second: musician_drums_playing_1
   - first:
-      213: -5633148717104447075
-    second: musician_bass_playing_2
-  - first:
-      213: -3806557986958376417
-    second: musician_bass_stage_play_0
-  - first:
-      213: -490630426076890444
-    second: musician_bass_stage_play_1
-  - first:
-      213: -731324248124743358
-    second: musician_bass_stage_play_2
+      213: -1609953275359296319
+    second: musician_drums_playing_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -49,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -140,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: musician_bass_stage_play_0
+      name: musician_drums_playing_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 245
-        width: 136
-        height: 245
+        x: 2
+        y: 343
+        width: 441
+        height: 340
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f128b6acda36c2bc0800000000000000
-      internalID: -3806557986958376417
+      spriteID: a77334ccdeb034cb0800000000000000
+      internalID: -4881044455177373830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_stage_play_1
+      name: musician_drums_playing_1
       rect:
         serializedVersion: 2
-        x: 136
-        y: 245
-        width: 136
-        height: 245
+        x: 444
+        y: 343
+        width: 439
+        height: 340
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ba30b91a3ee039f0800000000000000
-      internalID: -490630426076890444
+      spriteID: 8305b90a5abd7dfb0800000000000000
+      internalID: -4622984988061904840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_stage_play_2
+      name: musician_drums_playing_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 136
-        height: 245
+        x: 2
+        y: 1
+        width: 439
+        height: 341
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24125e69870d9d5f0800000000000000
-      internalID: -731324248124743358
+      spriteID: 1c48b35a60c48a9e0800000000000000
+      internalID: -1609953275359296319
       vertices: []
       indices: 
       edges: []

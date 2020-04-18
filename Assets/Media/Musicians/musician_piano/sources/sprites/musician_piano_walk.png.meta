@@ -1,151 +1,151 @@
 fileFormatVersion: 2
-guid: 3c143b3aa8232494a89453feb2feb005
+guid: 43a0f4d63daf13444a193ddf83b7c7ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3451763167454327277
-    second: musician_bass_walk_0
+      213: -415889265988602910
+    second: musician_piano_walk_0
   - first:
-      213: 3217138625231704497
-    second: musician_bass_walk_1
+      213: 218937352418507280
+    second: musician_piano_walk_1
   - first:
-      213: 4695056817751658615
-    second: musician_bass_walk_2
+      213: -6360382001737431518
+    second: musician_piano_walk_2
   - first:
-      213: 7982325723638853850
-    second: musician_bass_walk_3
+      213: -3477235926578744601
+    second: musician_piano_walk_3
   - first:
-      213: -1208491361816688037
-    second: musician_bass_walk_4
+      213: -3187626682269196491
+    second: musician_piano_walk_4
   - first:
-      213: -1781129035537104202
-    second: musician_bass_walk_5
+      213: 6941964420930193086
+    second: musician_piano_walk_5
   - first:
-      213: 1985486755564353429
-    second: musician_bass_walk_6
+      213: -7377626394898089666
+    second: musician_piano_walk_6
   - first:
-      213: -1428679406208952428
-    second: musician_bass_walk_7
+      213: 3653062234192815368
+    second: musician_piano_walk_7
   - first:
-      213: -5557641688487913640
-    second: musician_bass_walk_8
+      213: -2489366770267443433
+    second: musician_piano_walk_8
   - first:
-      213: -1718806768701352214
-    second: musician_bass_walk_9
+      213: -2053567683283662958
+    second: musician_piano_walk_9
   - first:
-      213: 6489754695755839987
-    second: musician_bass_walk_10
+      213: 8465010374562646611
+    second: musician_piano_walk_10
   - first:
-      213: -885151184159466543
-    second: musician_bass_walk_11
+      213: 5654091080764462270
+    second: musician_piano_walk_11
   - first:
-      213: 8114510872900372149
-    second: musician_bass_walk_12
+      213: -3162742427360370607
+    second: musician_piano_walk_12
   - first:
-      213: 8882945799254634711
-    second: musician_bass_walk_13
+      213: -8315366842935097569
+    second: musician_piano_walk_13
   - first:
-      213: 5447721448840302222
-    second: musician_bass_walk_14
+      213: 8787023145415212533
+    second: musician_piano_walk_14
   - first:
-      213: 629284472630217638
-    second: musician_bass_walk_15
+      213: -9200126537392650971
+    second: musician_piano_walk_15
   - first:
-      213: -1870863264172304458
-    second: musician_bass_walk_16
+      213: -5252627722946378933
+    second: musician_piano_walk_16
   - first:
-      213: -8653280288188756070
-    second: musician_bass_walk_17
+      213: -6738326999211765691
+    second: musician_piano_walk_17
   - first:
-      213: 4346359103812680817
-    second: musician_bass_walk_18
+      213: -5289064976565664685
+    second: musician_piano_walk_18
   - first:
-      213: 5107766664258131706
-    second: musician_bass_walk_19
+      213: 8340066488030515936
+    second: musician_piano_walk_19
   - first:
-      213: -2369524016861409823
-    second: musician_bass_walk_20
+      213: 1102645294077804390
+    second: musician_piano_walk_20
   - first:
-      213: 4531779279966691663
-    second: musician_bass_walk_21
+      213: 8668878760806476761
+    second: musician_piano_walk_21
   - first:
-      213: 3382753005499824853
-    second: musician_bass_walk_22
+      213: 1271059382535636629
+    second: musician_piano_walk_22
   - first:
-      213: 6937071530086521214
-    second: musician_bass_walk_23
+      213: 144518435626856654
+    second: musician_piano_walk_23
   - first:
-      213: -1435998083690060065
-    second: musician_bass_walk_0
+      213: -2502584559953115741
+    second: musician_piano_walk_0
   - first:
-      213: 8426444971878871814
-    second: musician_bass_walk_1
+      213: -1245436970200033125
+    second: musician_piano_walk_1
   - first:
-      213: -103704770490363366
-    second: musician_bass_walk_2
+      213: -3774057038281798727
+    second: musician_piano_walk_2
   - first:
-      213: -6177654141980889126
-    second: musician_bass_walk_3
+      213: 2701484283457357147
+    second: musician_piano_walk_3
   - first:
-      213: -242197892088106346
-    second: musician_bass_walk_4
+      213: 2701123161199841087
+    second: musician_piano_walk_4
   - first:
-      213: -888050891575415817
-    second: musician_bass_walk_5
+      213: -3898447053519220022
+    second: musician_piano_walk_5
   - first:
-      213: 6541399207525393606
-    second: musician_bass_walk_6
+      213: 439714196362297361
+    second: musician_piano_walk_6
   - first:
-      213: -6629752445635040184
-    second: musician_bass_walk_7
+      213: 7589677904193204914
+    second: musician_piano_walk_7
   - first:
-      213: 6990563722674388927
-    second: musician_bass_walk_8
+      213: 4142788642655385691
+    second: musician_piano_walk_8
   - first:
-      213: 3200701482621281334
-    second: musician_bass_walk_9
+      213: 8807031351096905702
+    second: musician_piano_walk_9
   - first:
-      213: -2970810746859365844
-    second: musician_bass_walk_10
+      213: 7962673588966384013
+    second: musician_piano_walk_10
   - first:
-      213: -396583642200092692
-    second: musician_bass_walk_11
+      213: -8511348499712719656
+    second: musician_piano_walk_11
   - first:
-      213: -2347078273742239115
-    second: musician_bass_walk_12
+      213: 1401809552932050051
+    second: musician_piano_walk_12
   - first:
-      213: -8765978698042555506
-    second: musician_bass_walk_13
+      213: 8627204448817540602
+    second: musician_piano_walk_13
   - first:
-      213: -2872040325541715222
-    second: musician_bass_walk_14
+      213: -2754559310641540914
+    second: musician_piano_walk_14
   - first:
-      213: 7551638198414391208
-    second: musician_bass_walk_15
+      213: -238611836737011146
+    second: musician_piano_walk_15
   - first:
-      213: -3073633683786932831
-    second: musician_bass_walk_16
+      213: 6573319344137960572
+    second: musician_piano_walk_16
   - first:
-      213: -3387238489902195179
-    second: musician_bass_walk_17
+      213: 117054475405293354
+    second: musician_piano_walk_17
   - first:
-      213: 6480866311046633686
-    second: musician_bass_walk_18
+      213: -2242501972334712351
+    second: musician_piano_walk_18
   - first:
-      213: -5000771289134596023
-    second: musician_bass_walk_19
+      213: -7649636805213233729
+    second: musician_piano_walk_19
   - first:
-      213: 5197657032576535307
-    second: musician_bass_walk_20
+      213: 8280918136255883903
+    second: musician_piano_walk_20
   - first:
-      213: 4729650828181205313
-    second: musician_bass_walk_21
+      213: 1647313684790869461
+    second: musician_piano_walk_21
   - first:
-      213: -524725097022605675
-    second: musician_bass_walk_22
+      213: 3160889830291879158
+    second: musician_piano_walk_22
   - first:
-      213: 5273175704488491228
-    second: musician_bass_walk_23
+      213: -2768729572776990098
+    second: musician_piano_walk_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -266,13 +266,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: musician_bass_walk_0
+      name: musician_piano_walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 993
-        width: 145
-        height: 232
+        y: 1461
+        width: 228
+        height: 339
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd62383e95f421ce0800000000000000
-      internalID: -1435998083690060065
+      spriteID: 3a50e9b1a98054dd0800000000000000
+      internalID: -2502584559953115741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_1
+      name: musician_piano_walk_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 994
-        width: 136
-        height: 231
+        x: 231
+        y: 1467
+        width: 231
+        height: 333
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,20 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60377348e0fb0f470800000000000000
-      internalID: 8426444971878871814
+      spriteID: b9896199ca157bee0800000000000000
+      internalID: -1245436970200033125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_2
+      name: musician_piano_walk_2
       rect:
         serializedVersion: 2
-        x: 292
-        y: 997
-        width: 129
-        height: 228
+        x: 462
+        y: 1469
+        width: 231
+        height: 331
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,20 +322,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1298698f019f8ef0800000000000000
-      internalID: -103704770490363366
+      spriteID: 9bb86279e1bdf9bc0800000000000000
+      internalID: -3774057038281798727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_3
+      name: musician_piano_walk_3
       rect:
         serializedVersion: 2
-        x: 438
-        y: 998
-        width: 118
-        height: 227
+        x: 693
+        y: 1471
+        width: 223
+        height: 329
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,20 +343,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf220ad940944aa0800000000000000
-      internalID: -6177654141980889126
+      spriteID: b55c6c984a99d7520800000000000000
+      internalID: 2701484283457357147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_4
+      name: musician_piano_walk_4
       rect:
         serializedVersion: 2
-        x: 584
-        y: 993
-        width: 98
-        height: 232
+        x: 924
+        y: 1465
+        width: 206
+        height: 335
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,125 +364,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6927db4ec4a83acf0800000000000000
-      internalID: -242197892088106346
+      spriteID: f3f85e534315c7520800000000000000
+      internalID: 2701123161199841087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 746
-        width: 87
-        height: 234
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fbad215b620da3f0800000000000000
-      internalID: -888050891575415817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_6
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 742
-        width: 77
-        height: 238
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c4a292ebe7b7ca50800000000000000
-      internalID: 6541399207525393606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_7
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 739
-        width: 88
-        height: 241
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84c6521d6436ef3a0800000000000000
-      internalID: -6629752445635040184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_8
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 737
-        width: 102
-        height: 243
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbf3dbd0ba8730160800000000000000
-      internalID: 6990563722674388927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_9
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 736
-        width: 118
-        height: 244
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63425b75a0d2b6c20800000000000000
-      internalID: 3200701482621281334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_10
+      name: musician_piano_walk_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 497
-        width: 125
-        height: 238
+        y: 1097
+        width: 172
+        height: 343
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,20 +385,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2ad882ad5f85c6d0800000000000000
-      internalID: -2970810746859365844
+      spriteID: ac291574f0fe5e9c0800000000000000
+      internalID: -3898447053519220022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_11
+      name: musician_piano_walk_6
       rect:
         serializedVersion: 2
-        x: 146
-        y: 498
-        width: 134
-        height: 237
+        x: 231
+        y: 1090
+        width: 147
+        height: 350
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,20 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cefcee2574d0f7af0800000000000000
-      internalID: -396583642200092692
+      spriteID: 1100fdc5bbd2a1600800000000000000
+      internalID: 439714196362297361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_12
+      name: musician_piano_walk_7
       rect:
         serializedVersion: 2
-        x: 292
-        y: 503
-        width: 146
-        height: 232
+        x: 462
+        y: 1084
+        width: 153
+        height: 356
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,20 +427,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57a8e81deb08d6fd0800000000000000
-      internalID: -2347078273742239115
+      spriteID: 2b2311f87d3f35960800000000000000
+      internalID: 7589677904193204914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_13
+      name: musician_piano_walk_8
       rect:
         serializedVersion: 2
-        x: 438
-        y: 505
-        width: 142
-        height: 230
+        x: 693
+        y: 1081
+        width: 148
+        height: 359
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,20 +448,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e83488a71dcf85680800000000000000
-      internalID: -8765978698042555506
+      spriteID: b583ff032542e7930800000000000000
+      internalID: 4142788642655385691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_14
+      name: musician_piano_walk_9
       rect:
         serializedVersion: 2
-        x: 584
-        y: 507
-        width: 139
-        height: 228
+        x: 924
+        y: 1080
+        width: 149
+        height: 360
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,125 +469,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae22d776a867428d0800000000000000
-      internalID: -2872040325541715222
+      spriteID: 6ef0cd72a5cd83a70800000000000000
+      internalID: 8807031351096905702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 263
-        width: 132
-        height: 227
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a7b2c06eeeccc860800000000000000
-      internalID: 7551638198414391208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_16
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 258
-        width: 112
-        height: 232
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ad543c03724855d0800000000000000
-      internalID: -3073633683786932831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_17
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 255
-        width: 97
-        height: 235
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51e59df2a8c1ef0d0800000000000000
-      internalID: -3387238489902195179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_18
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 251
-        width: 76
-        height: 239
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d81bb2a299a0f950800000000000000
-      internalID: 6480866311046633686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_19
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 249
-        width: 89
-        height: 241
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 940092cf101b99ab0800000000000000
-      internalID: -5000771289134596023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_20
+      name: musician_piano_walk_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 102
-        height: 242
+        y: 723
+        width: 186
+        height: 357
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,20 +490,209 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0b09036889c12840800000000000000
-      internalID: 5197657032576535307
+      spriteID: d81e9bce079118e60800000000000000
+      internalID: 7962673588966384013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_21
+      name: musician_piano_walk_11
       rect:
         serializedVersion: 2
-        x: 146
+        x: 231
+        y: 728
+        width: 217
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4c11372ad91e980800000000000000
+      internalID: -8511348499712719656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_piano_walk_12
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 741
+        width: 228
+        height: 339
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384934d7c5a347310800000000000000
+      internalID: 1401809552932050051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_piano_walk_13
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 747
+        width: 231
+        height: 333
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd6070ccbcf9b770800000000000000
+      internalID: 8627204448817540602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_piano_walk_14
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 749
+        width: 231
+        height: 331
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec05778b6e6d5c9d0800000000000000
+      internalID: -2754559310641540914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_piano_walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 391
+        width: 223
+        height: 329
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63246187cc740bcf0800000000000000
+      internalID: -238611836737011146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_piano_walk_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 385
+        width: 206
+        height: 335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cfb86dd1f193b50800000000000000
+      internalID: 6573319344137960572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_piano_walk_17
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 377
+        width: 172
+        height: 343
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27f6e9dc6cdf9100800000000000000
+      internalID: 117054475405293354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_piano_walk_18
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 370
+        width: 147
+        height: 350
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e960e2665801e0e0800000000000000
+      internalID: -2242501972334712351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_piano_walk_19
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 364
+        width: 153
+        height: 356
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdd28cead707d590800000000000000
+      internalID: -7649636805213233729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_piano_walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 1
-        width: 118
-        height: 244
+        width: 148
+        height: 359
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -721,20 +700,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1417f559e5813a140800000000000000
-      internalID: 4729650828181205313
+      spriteID: f7a2f95bb2bbbe270800000000000000
+      internalID: 8280918136255883903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_22
+      name: musician_piano_walk_21
       rect:
         serializedVersion: 2
-        x: 292
-        y: 6
-        width: 118
-        height: 239
+        x: 231
+        y: 0
+        width: 149
+        height: 360
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -742,20 +721,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5963c3bed4dc7b8f0800000000000000
-      internalID: -524725097022605675
+      spriteID: 5dd7997811f6cd610800000000000000
+      internalID: 1647313684790869461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_23
+      name: musician_piano_walk_22
       rect:
         serializedVersion: 2
-        x: 438
-        y: 9
-        width: 135
-        height: 236
+        x: 462
+        y: 3
+        width: 186
+        height: 357
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -763,8 +742,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd8b1406d551e2940800000000000000
-      internalID: 5273175704488491228
+      spriteID: 6f431b4bd8cbddb20800000000000000
+      internalID: 3160889830291879158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_piano_walk_23
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 8
+        width: 217
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a22877f1f7399d0800000000000000
+      internalID: -2768729572776990098
       vertices: []
       indices: 
       edges: []

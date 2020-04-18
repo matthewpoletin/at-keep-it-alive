@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3441320266221686161
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1797276296373939252, guid: f6d1322679b060f49be813b1d8b1baf1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797276296373939252, guid: f6d1322679b060f49be813b1d8b1baf1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797276296373939252, guid: f6d1322679b060f49be813b1d8b1baf1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797276296373939252, guid: f6d1322679b060f49be813b1d8b1baf1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797276296373939253, guid: f6d1322679b060f49be813b1d8b1baf1,
+        type: 3}
+      propertyPath: m_Name
+      value: musician_drums
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797276296373939254, guid: f6d1322679b060f49be813b1d8b1baf1,
+        type: 3}
+      propertyPath: _musicianType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1797276296373939254, guid: f6d1322679b060f49be813b1d8b1baf1,
+        type: 3}
+      propertyPath: _musicianData
+      value: 
+      objectReference: {fileID: 11400000, guid: ff053f54f07ade44eb4f69c63bbee888,
+        type: 2}
+    - target: {fileID: 1797276296373939255, guid: f6d1322679b060f49be813b1d8b1baf1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8096290337469318779, guid: 61726c56f80cd6c48a9159fe15742e51,
+        type: 3}
+    - target: {fileID: 8017257101340760614, guid: f6d1322679b060f49be813b1d8b1baf1,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 24599f9fdac52e84cb05681f1ee2e9bc,
+        type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6d1322679b060f49be813b1d8b1baf1, type: 3}

@@ -1,151 +1,82 @@
 fileFormatVersion: 2
-guid: 3c143b3aa8232494a89453feb2feb005
+guid: 042af48dc12a6f344a95bc1510cf388b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3451763167454327277
-    second: musician_bass_walk_0
+      213: 7204907103475952464
+    second: musician_drums_walk_0
   - first:
-      213: 3217138625231704497
-    second: musician_bass_walk_1
+      213: -639182542643497364
+    second: musician_drums_walk_1
   - first:
-      213: 4695056817751658615
-    second: musician_bass_walk_2
+      213: 7227419374030275878
+    second: musician_drums_walk_2
   - first:
-      213: 7982325723638853850
-    second: musician_bass_walk_3
+      213: 8959213920402369809
+    second: musician_drums_walk_3
   - first:
-      213: -1208491361816688037
-    second: musician_bass_walk_4
+      213: 3258121569201057444
+    second: musician_drums_walk_4
   - first:
-      213: -1781129035537104202
-    second: musician_bass_walk_5
+      213: -6983176467752287410
+    second: musician_drums_walk_5
   - first:
-      213: 1985486755564353429
-    second: musician_bass_walk_6
+      213: -6941974060471469154
+    second: musician_drums_walk_6
   - first:
-      213: -1428679406208952428
-    second: musician_bass_walk_7
+      213: -4463231694821278028
+    second: musician_drums_walk_7
   - first:
-      213: -5557641688487913640
-    second: musician_bass_walk_8
+      213: 691092497410732858
+    second: musician_drums_walk_8
   - first:
-      213: -1718806768701352214
-    second: musician_bass_walk_9
+      213: -4375163082028946173
+    second: musician_drums_walk_9
   - first:
-      213: 6489754695755839987
-    second: musician_bass_walk_10
+      213: 2129049174559079518
+    second: musician_drums_walk_10
   - first:
-      213: -885151184159466543
-    second: musician_bass_walk_11
+      213: -2437477214269655559
+    second: musician_drums_walk_11
   - first:
-      213: 8114510872900372149
-    second: musician_bass_walk_12
+      213: 8550730289293083905
+    second: musician_drums_walk_12
   - first:
-      213: 8882945799254634711
-    second: musician_bass_walk_13
+      213: 3393501257555237738
+    second: musician_drums_walk_13
   - first:
-      213: 5447721448840302222
-    second: musician_bass_walk_14
+      213: 2321941415019127099
+    second: musician_drums_walk_14
   - first:
-      213: 629284472630217638
-    second: musician_bass_walk_15
+      213: 6888418834135868451
+    second: musician_drums_walk_15
   - first:
-      213: -1870863264172304458
-    second: musician_bass_walk_16
+      213: -3125613328090316475
+    second: musician_drums_walk_16
   - first:
-      213: -8653280288188756070
-    second: musician_bass_walk_17
+      213: 2991376793088477960
+    second: musician_drums_walk_17
   - first:
-      213: 4346359103812680817
-    second: musician_bass_walk_18
+      213: 7229755534428324282
+    second: musician_drums_walk_18
   - first:
-      213: 5107766664258131706
-    second: musician_bass_walk_19
+      213: -1372710419135658940
+    second: musician_drums_walk_19
   - first:
-      213: -2369524016861409823
-    second: musician_bass_walk_20
+      213: 5405315094138603774
+    second: musician_drums_walk_20
   - first:
-      213: 4531779279966691663
-    second: musician_bass_walk_21
+      213: -6798979720082932728
+    second: musician_drums_walk_21
   - first:
-      213: 3382753005499824853
-    second: musician_bass_walk_22
+      213: 7177206954604723827
+    second: musician_drums_walk_22
   - first:
-      213: 6937071530086521214
-    second: musician_bass_walk_23
+      213: 1455910963241159619
+    second: musician_drums_walk_23
   - first:
-      213: -1435998083690060065
-    second: musician_bass_walk_0
-  - first:
-      213: 8426444971878871814
-    second: musician_bass_walk_1
-  - first:
-      213: -103704770490363366
-    second: musician_bass_walk_2
-  - first:
-      213: -6177654141980889126
-    second: musician_bass_walk_3
-  - first:
-      213: -242197892088106346
-    second: musician_bass_walk_4
-  - first:
-      213: -888050891575415817
-    second: musician_bass_walk_5
-  - first:
-      213: 6541399207525393606
-    second: musician_bass_walk_6
-  - first:
-      213: -6629752445635040184
-    second: musician_bass_walk_7
-  - first:
-      213: 6990563722674388927
-    second: musician_bass_walk_8
-  - first:
-      213: 3200701482621281334
-    second: musician_bass_walk_9
-  - first:
-      213: -2970810746859365844
-    second: musician_bass_walk_10
-  - first:
-      213: -396583642200092692
-    second: musician_bass_walk_11
-  - first:
-      213: -2347078273742239115
-    second: musician_bass_walk_12
-  - first:
-      213: -8765978698042555506
-    second: musician_bass_walk_13
-  - first:
-      213: -2872040325541715222
-    second: musician_bass_walk_14
-  - first:
-      213: 7551638198414391208
-    second: musician_bass_walk_15
-  - first:
-      213: -3073633683786932831
-    second: musician_bass_walk_16
-  - first:
-      213: -3387238489902195179
-    second: musician_bass_walk_17
-  - first:
-      213: 6480866311046633686
-    second: musician_bass_walk_18
-  - first:
-      213: -5000771289134596023
-    second: musician_bass_walk_19
-  - first:
-      213: 5197657032576535307
-    second: musician_bass_walk_20
-  - first:
-      213: 4729650828181205313
-    second: musician_bass_walk_21
-  - first:
-      213: -524725097022605675
-    second: musician_bass_walk_22
-  - first:
-      213: 5273175704488491228
-    second: musician_bass_walk_23
+      213: 4335867011421961825
+    second: musician_drums_walk_24
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -266,13 +197,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: musician_bass_walk_0
+      name: musician_drums_walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 993
-        width: 145
-        height: 232
+        y: 1380
+        width: 183
+        height: 330
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd62383e95f421ce0800000000000000
-      internalID: -1435998083690060065
+      spriteID: 05b6f5e56d8fcf360800000000000000
+      internalID: 7204907103475952464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_1
+      name: musician_drums_walk_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 994
-        width: 136
-        height: 231
+        x: 185
+        y: 1382
+        width: 185
+        height: 328
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,20 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60377348e0fb0f470800000000000000
-      internalID: 8426444971878871814
+      spriteID: c667a1f2dda2127f0800000000000000
+      internalID: -639182542643497364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_2
+      name: musician_drums_walk_2
       rect:
         serializedVersion: 2
-        x: 292
-        y: 997
-        width: 129
-        height: 228
+        x: 370
+        y: 1383
+        width: 182
+        height: 327
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1298698f019f8ef0800000000000000
-      internalID: -103704770490363366
+      spriteID: 625c9dfc0a3fc4460800000000000000
+      internalID: 7227419374030275878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_3
+      name: musician_drums_walk_3
       rect:
         serializedVersion: 2
-        x: 438
-        y: 998
-        width: 118
-        height: 227
+        x: 555
+        y: 1384
+        width: 170
+        height: 326
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf220ad940944aa0800000000000000
-      internalID: -6177654141980889126
+      spriteID: 11d6158b795855c70800000000000000
+      internalID: 8959213920402369809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_4
+      name: musician_drums_walk_4
       rect:
         serializedVersion: 2
-        x: 584
-        y: 993
-        width: 98
-        height: 232
+        x: 740
+        y: 1383
+        width: 143
+        height: 327
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,125 +295,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6927db4ec4a83acf0800000000000000
-      internalID: -242197892088106346
+      spriteID: 4ae644f0e4c273d20800000000000000
+      internalID: 3258121569201057444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 746
-        width: 87
-        height: 234
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fbad215b620da3f0800000000000000
-      internalID: -888050891575415817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_6
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 742
-        width: 77
-        height: 238
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c4a292ebe7b7ca50800000000000000
-      internalID: 6541399207525393606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_7
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 739
-        width: 88
-        height: 241
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84c6521d6436ef3a0800000000000000
-      internalID: -6629752445635040184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_8
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 737
-        width: 102
-        height: 243
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbf3dbd0ba8730160800000000000000
-      internalID: 6990563722674388927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_9
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 736
-        width: 118
-        height: 244
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63425b75a0d2b6c20800000000000000
-      internalID: 3200701482621281334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_10
+      name: musician_drums_walk_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 497
-        width: 125
-        height: 238
+        y: 1038
+        width: 116
+        height: 330
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,146 +316,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2ad882ad5f85c6d0800000000000000
-      internalID: -2970810746859365844
+      spriteID: e4302c34006c61f90800000000000000
+      internalID: -6983176467752287410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_11
+      name: musician_drums_walk_6
       rect:
         serializedVersion: 2
-        x: 146
-        y: 498
-        width: 134
-        height: 237
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cefcee2574d0f7af0800000000000000
-      internalID: -396583642200092692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_12
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 503
-        width: 146
-        height: 232
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57a8e81deb08d6fd0800000000000000
-      internalID: -2347078273742239115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_13
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 505
-        width: 142
-        height: 230
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e83488a71dcf85680800000000000000
-      internalID: -8765978698042555506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_14
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 507
-        width: 139
-        height: 228
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae22d776a867428d0800000000000000
-      internalID: -2872040325541715222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 263
-        width: 132
-        height: 227
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a7b2c06eeeccc860800000000000000
-      internalID: 7551638198414391208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_16
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 258
-        width: 112
-        height: 232
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ad543c03724855d0800000000000000
-      internalID: -3073633683786932831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_17
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 255
+        x: 185
+        y: 1034
         width: 97
-        height: 235
+        height: 334
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,20 +337,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51e59df2a8c1ef0d0800000000000000
-      internalID: -3387238489902195179
+      spriteID: e9b3f954f5729af90800000000000000
+      internalID: -6941974060471469154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_18
+      name: musician_drums_walk_7
       rect:
         serializedVersion: 2
-        x: 438
-        y: 251
-        width: 76
-        height: 239
+        x: 370
+        y: 1029
+        width: 86
+        height: 339
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,20 +358,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d81bb2a299a0f950800000000000000
-      internalID: 6480866311046633686
+      spriteID: 4beb9e7bb6a6f02c0800000000000000
+      internalID: -4463231694821278028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_19
+      name: musician_drums_walk_8
       rect:
         serializedVersion: 2
-        x: 584
-        y: 249
-        width: 89
-        height: 241
+        x: 555
+        y: 1026
+        width: 101
+        height: 342
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +379,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 940092cf101b99ab0800000000000000
-      internalID: -5000771289134596023
+      spriteID: a33ba1ff6f0479900800000000000000
+      internalID: 691092497410732858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_20
+      name: musician_drums_walk_9
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1026
+        width: 163
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30de2458b5c4843c0800000000000000
+      internalID: -4375163082028946173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 102
-        height: 242
+        y: 685
+        width: 172
+        height: 341
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,20 +421,251 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0b09036889c12840800000000000000
-      internalID: 5197657032576535307
+      spriteID: e5cbeeea1f6eb8d10800000000000000
+      internalID: 2129049174559079518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_21
+      name: musician_drums_walk_11
       rect:
         serializedVersion: 2
-        x: 146
+        x: 185
+        y: 689
+        width: 180
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5395f43675c2ed0800000000000000
+      internalID: -2437477214269655559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 696
+        width: 183
+        height: 330
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105cc77f4eb4aa670800000000000000
+      internalID: 8550730289293083905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_13
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 698
+        width: 185
+        height: 328
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bdb690a63281f20800000000000000
+      internalID: 3393501257555237738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_14
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 699
+        width: 182
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31ab7f2a61393020800000000000000
+      internalID: 2321941415019127099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358
+        width: 170
+        height: 326
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32467c8ee64989f50800000000000000
+      internalID: 6888418834135868451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 357
+        width: 143
+        height: 327
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54143f10d379f94d0800000000000000
+      internalID: -3125613328090316475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 354
+        width: 116
+        height: 330
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bc2652851838920800000000000000
+      internalID: 2991376793088477960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_18
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 350
+        width: 97
+        height: 334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1c38a8a50455460800000000000000
+      internalID: 7229755534428324282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_19
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 345
+        width: 86
+        height: 339
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44401ff852723fce0800000000000000
+      internalID: -1372710419135658940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef840358079830b40800000000000000
+      internalID: 5405315094138603774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_21
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 163
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c3f5597fb25a1a0800000000000000
+      internalID: -6798979720082932728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_drums_walk_22
+      rect:
+        serializedVersion: 2
+        x: 370
         y: 1
-        width: 118
-        height: 244
+        width: 172
+        height: 341
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -721,20 +673,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1417f559e5813a140800000000000000
-      internalID: 4729650828181205313
+      spriteID: 37e7da0e2bf8a9360800000000000000
+      internalID: 7177206954604723827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_22
+      name: musician_drums_walk_23
       rect:
         serializedVersion: 2
-        x: 292
-        y: 6
-        width: 118
-        height: 239
+        x: 555
+        y: 5
+        width: 180
+        height: 337
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -742,20 +694,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5963c3bed4dc7b8f0800000000000000
-      internalID: -524725097022605675
+      spriteID: 3cb069cae4f643410800000000000000
+      internalID: 1455910963241159619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_23
+      name: musician_drums_walk_24
       rect:
         serializedVersion: 2
-        x: 438
-        y: 9
-        width: 135
-        height: 236
+        x: 740
+        y: 12
+        width: 183
+        height: 330
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -763,8 +715,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd8b1406d551e2940800000000000000
-      internalID: 5273175704488491228
+      spriteID: 16ef32113181c2c30800000000000000
+      internalID: 4335867011421961825
       vertices: []
       indices: 
       edges: []

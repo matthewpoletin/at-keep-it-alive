@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: musician_trumpet_controller
+  m_Controller: {fileID: 9100000, guid: e5940afd7ea18e14599b2eee7b872a32, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b08484bad1826e841aeeeafc87a0ae44, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dd32031d64a1a4f4c813f8e259143e3b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f1d807e87e9ab874a9d3576ccf9b7fbf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: efea96ae00d071d4aa84807068c9c2d7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 95e069ae9e024ba4590416c64b530afe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a69cdc92402105c4ea4104fd50d6e9b1, type: 2}

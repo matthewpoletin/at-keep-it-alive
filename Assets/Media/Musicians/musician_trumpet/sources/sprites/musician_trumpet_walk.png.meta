@@ -1,151 +1,79 @@
 fileFormatVersion: 2
-guid: 3c143b3aa8232494a89453feb2feb005
+guid: abe00d3b76a177041a58269dc29a8215
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3451763167454327277
-    second: musician_bass_walk_0
+      213: 2388839874179127932
+    second: musician_trumpet_walk_0
   - first:
-      213: 3217138625231704497
-    second: musician_bass_walk_1
+      213: -7263896857626261874
+    second: musician_trumpet_walk_1
   - first:
-      213: 4695056817751658615
-    second: musician_bass_walk_2
+      213: 4663056910702788046
+    second: musician_trumpet_walk_2
   - first:
-      213: 7982325723638853850
-    second: musician_bass_walk_3
+      213: 7535639602401980505
+    second: musician_trumpet_walk_3
   - first:
-      213: -1208491361816688037
-    second: musician_bass_walk_4
+      213: -5027150861215573957
+    second: musician_trumpet_walk_4
   - first:
-      213: -1781129035537104202
-    second: musician_bass_walk_5
+      213: -1019628236346079513
+    second: musician_trumpet_walk_5
   - first:
-      213: 1985486755564353429
-    second: musician_bass_walk_6
+      213: 509271971440114686
+    second: musician_trumpet_walk_6
   - first:
-      213: -1428679406208952428
-    second: musician_bass_walk_7
+      213: -5024906304298846037
+    second: musician_trumpet_walk_7
   - first:
-      213: -5557641688487913640
-    second: musician_bass_walk_8
+      213: -5057709623307970194
+    second: musician_trumpet_walk_8
   - first:
-      213: -1718806768701352214
-    second: musician_bass_walk_9
+      213: 8211533880438274845
+    second: musician_trumpet_walk_9
   - first:
-      213: 6489754695755839987
-    second: musician_bass_walk_10
+      213: -7707971502275187426
+    second: musician_trumpet_walk_10
   - first:
-      213: -885151184159466543
-    second: musician_bass_walk_11
+      213: 3893767709316609074
+    second: musician_trumpet_walk_11
   - first:
-      213: 8114510872900372149
-    second: musician_bass_walk_12
+      213: -6612048418793893926
+    second: musician_trumpet_walk_12
   - first:
-      213: 8882945799254634711
-    second: musician_bass_walk_13
+      213: -5681154162384455394
+    second: musician_trumpet_walk_13
   - first:
-      213: 5447721448840302222
-    second: musician_bass_walk_14
+      213: -5465827656561934841
+    second: musician_trumpet_walk_14
   - first:
-      213: 629284472630217638
-    second: musician_bass_walk_15
+      213: 770493930964085017
+    second: musician_trumpet_walk_15
   - first:
-      213: -1870863264172304458
-    second: musician_bass_walk_16
+      213: -7188884050407533892
+    second: musician_trumpet_walk_16
   - first:
-      213: -8653280288188756070
-    second: musician_bass_walk_17
+      213: 31253209141861531
+    second: musician_trumpet_walk_17
   - first:
-      213: 4346359103812680817
-    second: musician_bass_walk_18
+      213: 4427546123563603322
+    second: musician_trumpet_walk_18
   - first:
-      213: 5107766664258131706
-    second: musician_bass_walk_19
+      213: -2303738628998159463
+    second: musician_trumpet_walk_19
   - first:
-      213: -2369524016861409823
-    second: musician_bass_walk_20
+      213: 4905208492959681386
+    second: musician_trumpet_walk_20
   - first:
-      213: 4531779279966691663
-    second: musician_bass_walk_21
+      213: 9155626498944461561
+    second: musician_trumpet_walk_21
   - first:
-      213: 3382753005499824853
-    second: musician_bass_walk_22
+      213: -6085364176203998098
+    second: musician_trumpet_walk_22
   - first:
-      213: 6937071530086521214
-    second: musician_bass_walk_23
-  - first:
-      213: -1435998083690060065
-    second: musician_bass_walk_0
-  - first:
-      213: 8426444971878871814
-    second: musician_bass_walk_1
-  - first:
-      213: -103704770490363366
-    second: musician_bass_walk_2
-  - first:
-      213: -6177654141980889126
-    second: musician_bass_walk_3
-  - first:
-      213: -242197892088106346
-    second: musician_bass_walk_4
-  - first:
-      213: -888050891575415817
-    second: musician_bass_walk_5
-  - first:
-      213: 6541399207525393606
-    second: musician_bass_walk_6
-  - first:
-      213: -6629752445635040184
-    second: musician_bass_walk_7
-  - first:
-      213: 6990563722674388927
-    second: musician_bass_walk_8
-  - first:
-      213: 3200701482621281334
-    second: musician_bass_walk_9
-  - first:
-      213: -2970810746859365844
-    second: musician_bass_walk_10
-  - first:
-      213: -396583642200092692
-    second: musician_bass_walk_11
-  - first:
-      213: -2347078273742239115
-    second: musician_bass_walk_12
-  - first:
-      213: -8765978698042555506
-    second: musician_bass_walk_13
-  - first:
-      213: -2872040325541715222
-    second: musician_bass_walk_14
-  - first:
-      213: 7551638198414391208
-    second: musician_bass_walk_15
-  - first:
-      213: -3073633683786932831
-    second: musician_bass_walk_16
-  - first:
-      213: -3387238489902195179
-    second: musician_bass_walk_17
-  - first:
-      213: 6480866311046633686
-    second: musician_bass_walk_18
-  - first:
-      213: -5000771289134596023
-    second: musician_bass_walk_19
-  - first:
-      213: 5197657032576535307
-    second: musician_bass_walk_20
-  - first:
-      213: 4729650828181205313
-    second: musician_bass_walk_21
-  - first:
-      213: -524725097022605675
-    second: musician_bass_walk_22
-  - first:
-      213: 5273175704488491228
-    second: musician_bass_walk_23
+      213: -3976310405874727426
+    second: musician_trumpet_walk_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -266,13 +194,160 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: musician_bass_walk_0
+      name: musician_trumpet_walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 993
+        y: 1519
+        width: 196
+        height: 371
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a5cbd753dd62120800000000000000
+      internalID: 2388839874179127932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_trumpet_walk_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1521
+        width: 193
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e864c143b44713b90800000000000000
+      internalID: -7263896857626261874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_trumpet_walk_2
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1523
+        width: 193
+        height: 367
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdbed9ed8186b040800000000000000
+      internalID: 4663056910702788046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_trumpet_walk_3
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1523
+        width: 199
+        height: 367
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9503988fa48f39860800000000000000
+      internalID: 7535639602401980505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_trumpet_walk_4
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1522
+        width: 189
+        height: 368
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3852fc3de8fb3ab0800000000000000
+      internalID: -5027150861215573957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_trumpet_walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1141
+        width: 179
+        height: 371
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e642a1758d89d1f0800000000000000
+      internalID: -1019628236346079513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_trumpet_walk_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1139
+        width: 159
+        height: 373
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb30c7e82c411700800000000000000
+      internalID: 509271971440114686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_trumpet_walk_7
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1135
         width: 145
-        height: 232
+        height: 377
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd62383e95f421ce0800000000000000
-      internalID: -1435998083690060065
+      spriteID: ba875aed652f34ab0800000000000000
+      internalID: -5024906304298846037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_1
+      name: musician_trumpet_walk_8
       rect:
         serializedVersion: 2
-        x: 146
-        y: 994
-        width: 136
-        height: 231
+        x: 597
+        y: 1134
+        width: 137
+        height: 378
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60377348e0fb0f470800000000000000
-      internalID: 8426444971878871814
+      spriteID: e6957adf4e76fc9b0800000000000000
+      internalID: -5057709623307970194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_2
+      name: musician_trumpet_walk_9
       rect:
         serializedVersion: 2
-        x: 292
-        y: 997
-        width: 129
-        height: 228
+        x: 796
+        y: 1134
+        width: 143
+        height: 378
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,62 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1298698f019f8ef0800000000000000
-      internalID: -103704770490363366
+      spriteID: d1bbb94ce8a35f170800000000000000
+      internalID: 8211533880438274845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_3
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 998
-        width: 118
-        height: 227
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: adf220ad940944aa0800000000000000
-      internalID: -6177654141980889126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_4
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 993
-        width: 98
-        height: 232
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6927db4ec4a83acf0800000000000000
-      internalID: -242197892088106346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_5
+      name: musician_trumpet_walk_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 746
-        width: 87
-        height: 234
+        y: 757
+        width: 160
+        height: 377
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fbad215b620da3f0800000000000000
-      internalID: -888050891575415817
+      spriteID: e1dad0cd1c8c70590800000000000000
+      internalID: -7707971502275187426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_6
+      name: musician_trumpet_walk_11
       rect:
         serializedVersion: 2
-        x: 146
-        y: 742
-        width: 77
-        height: 238
+        x: 199
+        y: 759
+        width: 173
+        height: 378
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,20 +439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c4a292ebe7b7ca50800000000000000
-      internalID: 6541399207525393606
+      spriteID: 234f3bff911790630800000000000000
+      internalID: 3893767709316609074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_7
+      name: musician_trumpet_walk_12
       rect:
         serializedVersion: 2
-        x: 292
-        y: 739
-        width: 88
-        height: 241
+        x: 398
+        y: 763
+        width: 196
+        height: 371
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,20 +460,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84c6521d6436ef3a0800000000000000
-      internalID: -6629752445635040184
+      spriteID: adf4b18cef84d34a0800000000000000
+      internalID: -6612048418793893926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_8
+      name: musician_trumpet_walk_13
       rect:
         serializedVersion: 2
-        x: 438
-        y: 737
-        width: 102
-        height: 243
+        x: 597
+        y: 765
+        width: 193
+        height: 369
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbf3dbd0ba8730160800000000000000
-      internalID: 6990563722674388927
+      spriteID: e19b7dca36c7821b0800000000000000
+      internalID: -5681154162384455394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_9
+      name: musician_trumpet_walk_14
       rect:
         serializedVersion: 2
-        x: 584
-        y: 736
-        width: 118
-        height: 244
+        x: 796
+        y: 767
+        width: 193
+        height: 367
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,125 +502,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63425b75a0d2b6c20800000000000000
-      internalID: 3200701482621281334
+      spriteID: 70ebe1f94ba7524b0800000000000000
+      internalID: -5465827656561934841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 497
-        width: 125
-        height: 238
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2ad882ad5f85c6d0800000000000000
-      internalID: -2970810746859365844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_11
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 498
-        width: 134
-        height: 237
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cefcee2574d0f7af0800000000000000
-      internalID: -396583642200092692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_12
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 503
-        width: 146
-        height: 232
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57a8e81deb08d6fd0800000000000000
-      internalID: -2347078273742239115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_13
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 505
-        width: 142
-        height: 230
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e83488a71dcf85680800000000000000
-      internalID: -8765978698042555506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_14
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 507
-        width: 139
-        height: 228
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae22d776a867428d0800000000000000
-      internalID: -2872040325541715222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_15
+      name: musician_trumpet_walk_15
       rect:
         serializedVersion: 2
         x: 0
-        y: 263
-        width: 132
-        height: 227
+        y: 389
+        width: 199
+        height: 367
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,20 +523,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a7b2c06eeeccc860800000000000000
-      internalID: 7551638198414391208
+      spriteID: 91965b0e52851ba00800000000000000
+      internalID: 770493930964085017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_16
+      name: musician_trumpet_walk_16
       rect:
         serializedVersion: 2
-        x: 146
-        y: 258
-        width: 112
-        height: 232
+        x: 199
+        y: 388
+        width: 189
+        height: 368
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,20 +544,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ad543c03724855d0800000000000000
-      internalID: -3073633683786932831
+      spriteID: cb2dcf36b04fb3c90800000000000000
+      internalID: -7188884050407533892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_17
+      name: musician_trumpet_walk_17
       rect:
         serializedVersion: 2
-        x: 292
-        y: 255
-        width: 97
-        height: 235
+        x: 398
+        y: 385
+        width: 179
+        height: 371
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,20 +565,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51e59df2a8c1ef0d0800000000000000
-      internalID: -3387238489902195179
+      spriteID: b9cddfcc0a80f6000800000000000000
+      internalID: 31253209141861531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_18
+      name: musician_trumpet_walk_18
       rect:
         serializedVersion: 2
-        x: 438
-        y: 251
-        width: 76
-        height: 239
+        x: 597
+        y: 383
+        width: 159
+        height: 373
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,20 +586,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d81bb2a299a0f950800000000000000
-      internalID: 6480866311046633686
+      spriteID: a759aa1cdbdc17d30800000000000000
+      internalID: 4427546123563603322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_19
+      name: musician_trumpet_walk_19
       rect:
         serializedVersion: 2
-        x: 584
-        y: 249
-        width: 89
-        height: 241
+        x: 796
+        y: 379
+        width: 145
+        height: 377
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +607,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 940092cf101b99ab0800000000000000
-      internalID: -5000771289134596023
+      spriteID: 99328333ce97700e0800000000000000
+      internalID: -2303738628998159463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_20
+      name: musician_trumpet_walk_20
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 102
-        height: 242
+        y: 0
+        width: 137
+        height: 378
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,20 +628,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0b09036889c12840800000000000000
-      internalID: 5197657032576535307
+      spriteID: a6b471ca22dc21440800000000000000
+      internalID: 4905208492959681386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_21
+      name: musician_trumpet_walk_21
       rect:
         serializedVersion: 2
-        x: 146
+        x: 199
+        y: 0
+        width: 143
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faecbdcac15f0f70800000000000000
+      internalID: 9155626498944461561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musician_trumpet_walk_22
+      rect:
+        serializedVersion: 2
+        x: 398
         y: 1
-        width: 118
-        height: 244
+        width: 160
+        height: 377
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -721,20 +670,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1417f559e5813a140800000000000000
-      internalID: 4729650828181205313
+      spriteID: e6c197cf5817c8ba0800000000000000
+      internalID: -6085364176203998098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: musician_bass_walk_22
+      name: musician_trumpet_walk_23
       rect:
         serializedVersion: 2
-        x: 292
-        y: 6
-        width: 118
-        height: 239
+        x: 597
+        y: 3
+        width: 173
+        height: 378
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -742,29 +691,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5963c3bed4dc7b8f0800000000000000
-      internalID: -524725097022605675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: musician_bass_walk_23
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 9
-        width: 135
-        height: 236
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd8b1406d551e2940800000000000000
-      internalID: 5273175704488491228
+      spriteID: ef5c525d0ce41d8c0800000000000000
+      internalID: -3976310405874727426
       vertices: []
       indices: 
       edges: []
