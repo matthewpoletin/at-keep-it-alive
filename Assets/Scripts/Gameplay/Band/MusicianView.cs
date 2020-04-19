@@ -74,6 +74,10 @@ namespace KnowCrow.AT.KeepItAlive
             {
                 _musicianModel.ManaLevel -= _musicianModel.Data.ManaLossSpeed * deltaTime;
             }
+            else if (_musicianModel.StageState == StageState.OffStage)
+            {
+                _musicianModel.ManaLevel += _musicianModel.Data.ManaGainSpeed * deltaTime;
+            }
         }
 
         private void OffStage()

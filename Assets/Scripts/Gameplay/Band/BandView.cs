@@ -12,6 +12,8 @@ namespace KnowCrow.AT.KeepItAlive
 
         private readonly List<Transform> _offStageSpots = new List<Transform>();
 
+        public IReadOnlyList<MusicianView> MusicianViews => _musicians;
+
         public void Initialize(GameplayModel model)
         {
             for (int i = 0; i < _offStageContainer.childCount; i++)

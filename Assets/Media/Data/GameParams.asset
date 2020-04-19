@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: GameParams
   m_EditorClassIdentifier: 
   _sessionDurationSec: 60
+  _impressionGainPerMusicianSpeed: 0.0001
   _impressionLossSpeed: 0.01
   _positiveClickPointsLoss: 1
   _negativeClickPointsGain: 1

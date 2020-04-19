@@ -1,4 +1,5 @@
-﻿using TMPro.EditorUtilities;
+﻿using System.Linq;
+using TMPro.EditorUtilities;
 using UnityEngine;
 
 namespace KnowCrow.AT.KeepItAlive
@@ -67,6 +68,10 @@ namespace KnowCrow.AT.KeepItAlive
             {
                 _context.Model.ImpressionModel.ImpressionLevel -=
                     _context.GameplayController.GameParams.ImpressionLossSpeed * deltaTime;
+                int musiciansOnStageCount = _context.Model.BandList
+                    .Where(musicianModel => musicianModel.StageState == StageState.OnStage).ToList().Count;
+                _context.Model.ImpressionModel.ImpressionLevel +=
+                    musiciansOnStageCount * _context.GameplayController.GameParams.ImpressionGainPerMusicianSpeed;
             }
 
             public override void Dispose()
