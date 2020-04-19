@@ -12,16 +12,26 @@ namespace KnowCrow.AT.KeepItAlive
 
         private Transform _pivotTransform;
         private Camera _mainCamera;
+        public bool IsPositive { get; private set; }
         private Action<BubbleWidget> _onBubbleClick;
 
+
         public void Initialize(Transform pivotTransform, Camera mainCamera, string text,
-            Action<BubbleWidget> onBubbleClick)
+            bool isPositive, Action<BubbleWidget> onBubbleClick)
         {
             _pivotTransform = pivotTransform;
             _mainCamera = mainCamera;
+            IsPositive = isPositive;
             _onBubbleClick = onBubbleClick;
 
             _text.text = text;
+
+#if UNITY_EDITOR
+            foreach (Image image in gameObject.GetComponentsInChildren<Image>())
+            {
+                image.color = IsPositive ? Color.green : Color.red;
+            }
+#endif
 
             UpdatePosition();
 

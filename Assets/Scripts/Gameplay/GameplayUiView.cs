@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 namespace KnowCrow.AT.KeepItAlive
 {
@@ -33,11 +32,12 @@ namespace KnowCrow.AT.KeepItAlive
             _bubbles.ForEach(bubble => bubble.Tick(deltaTime));
         }
 
-        public BubbleWidget CreateBubble(Transform pivotTransform, string text, Action<BubbleWidget> onBubbleClick)
+        public BubbleWidget CreateBubble(Transform pivotTransform, string text, bool isPositive,
+            Action<BubbleWidget> onBubbleClick)
         {
             GameObject bubble = Instantiate(_bubblePrefab, _bubbleContainer);
             var bubbleWidget = bubble.GetComponent<BubbleWidget>();
-            bubbleWidget.Initialize(pivotTransform, _mainCamera, text, onBubbleClick);
+            bubbleWidget.Initialize(pivotTransform, _mainCamera, text, isPositive, onBubbleClick);
             _bubbles.Add(bubbleWidget);
             return bubbleWidget;
         }
