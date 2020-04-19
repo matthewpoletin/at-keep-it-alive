@@ -5,13 +5,15 @@
         private GameState _currentState = null;
 
         public GameplayUiView UiView { get; private set; }
+        public EnvironmentView EnvironmentView { get; }
         public GameplayModel Model { get; private set; }
 
         public Timer Timer { get; private set; }
 
-        public GameContext(GameplayUiView uiView, GameplayModel model)
+        public GameContext(GameplayUiView uiView, EnvironmentView environmentView, GameplayModel model)
         {
             UiView = uiView;
+            EnvironmentView = environmentView;
             Model = model;
 
             Timer = new Timer(10);

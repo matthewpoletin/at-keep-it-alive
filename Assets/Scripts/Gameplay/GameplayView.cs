@@ -7,8 +7,10 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private GameplayUiView _uiView = null;
         [SerializeField] private BandView _bandView = null;
         [SerializeField] private AudienceView _audienceView = null;
+        [SerializeField] private EnvironmentView _environmentView = null;
 
         public GameplayUiView UiView => _uiView;
+        public EnvironmentView EnvironmentView => _environmentView;
 
         public void Initialize(GameplayModel model, Timer timer)
         {

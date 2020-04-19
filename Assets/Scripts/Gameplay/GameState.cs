@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro.EditorUtilities;
+using UnityEngine;
 
 namespace KnowCrow.AT.KeepItAlive
 {
@@ -50,6 +51,7 @@ namespace KnowCrow.AT.KeepItAlive
             public override void Initialize()
             {
                 _context.Timer.Unpause();
+                _context.EnvironmentView.ShowShade();
             }
 
             public override void ActivateAction()
@@ -80,6 +82,7 @@ namespace KnowCrow.AT.KeepItAlive
             public override void Initialize()
             {
                 _context.Timer.Pause();
+                _context.EnvironmentView.HideFade(1f);
             }
 
             public override void ActivateAction()

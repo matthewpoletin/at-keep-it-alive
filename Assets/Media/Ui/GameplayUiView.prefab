@@ -183,7 +183,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3129233663356562165}
-  - {fileID: 3129233662659949230}
+  - {fileID: 1059898494210209388}
   m_Father: {fileID: 3129233662596943781}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -565,102 +565,6 @@ MonoBehaviour:
   _bubblePrefab: {fileID: 0}
   _activeStateContainer: {fileID: 6860348013859731745}
   _gameInfo: {fileID: 3129233661494046466}
---- !u!1 &3129233662659949231
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3129233662659949230}
-  - component: {fileID: 3129233662659949228}
-  - component: {fileID: 3129233662659949229}
-  m_Layer: 5
-  m_Name: text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &3129233662659949230
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3129233662659949231}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3129233661494046465}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &3129233662659949228
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3129233662659949231}
-  m_CullTransparentMesh: 0
---- !u!114 &3129233662659949229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3129233662659949231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 55
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 55
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Welcome to the bar <bar_name>, dear guests!
-
-    On today''s playbill,
-    you will find a quartet of none other than Andy Triffet.
-
-    Take your seats,
-    Sit back, we''ll start soon
-
-
-
-    Today on stage are:
-
-    Andy Triffet - Piano
-
-    <name>
-    - Drum
-
-    <name> - Pipe
-
-    <name> - Double bass'
 --- !u!1 &3129233663327834641
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,6 +709,179 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &3941632454328980902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1059898494210209388}
+  - component: {fileID: 3507861861829610833}
+  - component: {fileID: 128660634824762345}
+  m_Layer: 5
+  m_Name: text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1059898494210209388
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941632454328980902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3129233661494046465}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3507861861829610833
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941632454328980902}
+  m_CullTransparentMesh: 0
+--- !u!114 &128660634824762345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941632454328980902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Welcome to the bar Vinyl Hills, dear guests!
+
+    On today''s playbill,
+    you will find a quartet of none other than Andy Triffet.
+
+    Take your seats,
+    sit back, we''ll start soon
+
+
+    Today on stage are:
+
+    Andy Triffet - Piano
+
+    Lenny
+    O''Stevens - Drums
+
+    Eugene Malone - Trumpet
+
+    Lou Grapelli - Double bass'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 0
+  m_textAlignment: 514
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 0
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 0
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 0}
+    characterCount: 0
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 0
+    linkCount: 0
+    lineCount: 0
+    pageCount: 0
+    materialCount: 0
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &4077459282529426964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,12 +1366,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72dc033343d504947ac5b37bc260089b, type: 3}
---- !u!224 &816465189584903508 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1242092001709578591, guid: 72dc033343d504947ac5b37bc260089b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1902883936047907851}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &816465189584903509 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1242092001709578590, guid: 72dc033343d504947ac5b37bc260089b,
@@ -1307,6 +1378,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bd71c47d3b46188ad6ca9ac999835f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &816465189584903508 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1242092001709578591, guid: 72dc033343d504947ac5b37bc260089b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1902883936047907851}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3115852302139956222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1397,6 +1474,12 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72dc033343d504947ac5b37bc260089b, type: 3}
+--- !u!224 &4179752982417654433 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1242092001709578591, guid: 72dc033343d504947ac5b37bc260089b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3115852302139956222}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4179752982417654432 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1242092001709578590, guid: 72dc033343d504947ac5b37bc260089b,
@@ -1409,12 +1492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bd71c47d3b46188ad6ca9ac999835f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &4179752982417654433 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1242092001709578591, guid: 72dc033343d504947ac5b37bc260089b,
-    type: 3}
-  m_PrefabInstance: {fileID: 3115852302139956222}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3500782753617885852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1613,6 +1690,12 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72dc033343d504947ac5b37bc260089b, type: 3}
+--- !u!224 &2441724332273240501 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1242092001709578591, guid: 72dc033343d504947ac5b37bc260089b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3521378745360568554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2441724332273240500 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1242092001709578590, guid: 72dc033343d504947ac5b37bc260089b,
@@ -1625,9 +1708,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23bd71c47d3b46188ad6ca9ac999835f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &2441724332273240501 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1242092001709578591, guid: 72dc033343d504947ac5b37bc260089b,
-    type: 3}
-  m_PrefabInstance: {fileID: 3521378745360568554}
-  m_PrefabAsset: {fileID: 0}

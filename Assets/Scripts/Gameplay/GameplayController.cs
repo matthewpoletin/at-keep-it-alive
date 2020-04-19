@@ -13,7 +13,7 @@
             _view = gameplayView;
             _model = new GameplayModel();
 
-            _gameContext = new GameContext(_view.UiView, _model);
+            _gameContext = new GameContext(_view.UiView, _view.EnvironmentView, _model);
             var initialGameState = new GameState.EntryGameState();
             _gameContext.ChangeState(initialGameState);
 
