@@ -344,6 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cacd15e4e830f34d9f1f7b1fa155dd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameParams: {fileID: 11400000, guid: 16a1665d835469c4488c6ea8156375b1, type: 2}
   _mainCamera: {fileID: 519420031}
   _uiView: {fileID: 1430260467}
   _bandView: {fileID: 660807427}

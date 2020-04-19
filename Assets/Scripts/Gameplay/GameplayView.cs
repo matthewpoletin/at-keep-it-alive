@@ -4,12 +4,14 @@ namespace KnowCrow.AT.KeepItAlive
 {
     public class GameplayView : BaseView
     {
+        [SerializeField] private GameParams _gameParams = null;
         [SerializeField] private Camera _mainCamera;
         [SerializeField] private GameplayUiView _uiView = null;
         [SerializeField] private BandView _bandView = null;
         [SerializeField] private AudienceView _audienceView = null;
         [SerializeField] private EnvironmentView _environmentView = null;
 
+        public GameParams GameParams => _gameParams;
         public GameplayUiView UiView => _uiView;
         public EnvironmentView EnvironmentView => _environmentView;
 

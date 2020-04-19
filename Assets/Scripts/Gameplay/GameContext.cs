@@ -4,19 +4,21 @@
     {
         private GameState _currentState = null;
 
+        public GameplayController GameplayController { get; private set; }
         public GameplayUiView UiView { get; private set; }
         public EnvironmentView EnvironmentView { get; }
         public GameplayModel Model { get; private set; }
 
         public Timer Timer { get; private set; }
 
-        public GameContext(GameplayUiView uiView, EnvironmentView environmentView, GameplayModel model)
+        public GameContext(GameplayController gameplayController, GameplayUiView uiView, EnvironmentView environmentView, GameplayModel model)
         {
+            GameplayController = gameplayController;
             UiView = uiView;
             EnvironmentView = environmentView;
             Model = model;
 
-            Timer = new Timer(10);
+            Timer = new Timer(gameplayController.GameParams.SessionDurationSec);
             Timer.Pause();
         }
 

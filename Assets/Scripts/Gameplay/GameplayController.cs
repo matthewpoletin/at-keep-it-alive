@@ -5,6 +5,8 @@
         private GameplayView _view;
         private GameplayModel _model;
 
+        public GameParams GameParams => _view.GameParams;
+
         private readonly GameStateObserver _gameStateObserver;
         private readonly GameContext _gameContext;
 
@@ -13,7 +15,7 @@
             _view = gameplayView;
             _model = new GameplayModel();
 
-            _gameContext = new GameContext(_view.UiView, _view.EnvironmentView, _model);
+            _gameContext = new GameContext(this, _view.UiView, _view.EnvironmentView, _model);
             var initialGameState = new GameState.EntryGameState();
             _gameContext.ChangeState(initialGameState);
 

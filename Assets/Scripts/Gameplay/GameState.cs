@@ -65,7 +65,8 @@ namespace KnowCrow.AT.KeepItAlive
 
             public override void Tick(float deltaTime)
             {
-                _context.Model.ImpressionModel.ImpressionLevel -= 1f * deltaTime;
+                _context.Model.ImpressionModel.ImpressionLevel -=
+                    _context.GameplayController.GameParams.ImpressionLossSpeed * deltaTime;
             }
 
             public override void Dispose()
