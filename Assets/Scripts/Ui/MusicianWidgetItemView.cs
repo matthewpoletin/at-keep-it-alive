@@ -7,7 +7,7 @@ namespace KnowCrow.AT.KeepItAlive
     {
         [SerializeField] private MusicianType _musicianType = default;
         [SerializeField] private Image _stageIcon = null;
-        [SerializeField] private HorizontalProgressBar _progressBar = null;
+        [SerializeField] private ProgressBarBase _progressBar = null;
         [SerializeField] private Button _button = null;
 
         public MusicianType MusicianType => _musicianType;

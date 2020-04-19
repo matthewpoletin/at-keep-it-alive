@@ -6,7 +6,7 @@ namespace KnowCrow.AT.KeepItAlive
 {
     public class TimerWidget : BaseView
     {
-        [SerializeField] private VerticalProgressBar _verticalProgressBar = null;
+        [SerializeField] private ProgressBarBase _verticalProgressBar = null;
         [SerializeField] private TextMeshProUGUI _text = null;
 
         private const float TIME_START = 18;

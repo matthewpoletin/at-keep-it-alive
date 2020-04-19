@@ -5,7 +5,7 @@ namespace KnowCrow.AT.KeepItAlive
 {
     public class ImpressionWidget : BaseView
     {
-        [SerializeField] private VerticalProgressBar _verticalProgressBar = null;
+        [SerializeField] private ProgressBarBase _verticalProgressBar = null;
         [SerializeField] private TextMeshProUGUI _text = null;
 
         private ImpressionModel _impressionModel;
