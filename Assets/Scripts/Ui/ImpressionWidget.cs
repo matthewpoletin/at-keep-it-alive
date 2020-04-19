@@ -5,6 +5,8 @@ namespace KnowCrow.AT.KeepItAlive
 {
     public class ImpressionWidget : BaseView
     {
+        private const string PROGRESS_TEXT_FORMAT = "{0}/{1}";
+
         [SerializeField] private ProgressBarBase _verticalProgressBar = null;
         [SerializeField] private TextMeshProUGUI _text = null;
 
@@ -20,7 +22,9 @@ namespace KnowCrow.AT.KeepItAlive
         private void OnImpressionLevelChanged(float impressionLevel)
         {
             _verticalProgressBar.SetProgress(impressionLevel);
-            _text.text = $"{(int) (impressionLevel * 100)} / 100";
+            int maxProgress = 100;
+            string textText = string.Format(PROGRESS_TEXT_FORMAT, (int) (impressionLevel * maxProgress), maxProgress);
+            _text.text = textText;
         }
 
         public override void Dispose()
