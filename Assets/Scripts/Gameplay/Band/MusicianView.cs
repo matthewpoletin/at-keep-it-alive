@@ -25,12 +25,16 @@ namespace KnowCrow.AT.KeepItAlive
         public MusicianData MusicianData => _musicianData;
 
         private MusicianModel _musicianModel;
+        private MusicianPlayingSpot _musicianPlayingSpot;
+        private BandView _bandView;
 
         private Tween _movementTween;
 
-        public void Initialize(MusicianModel musicianModel)
+        public void Initialize(MusicianModel musicianModel, MusicianPlayingSpot musicianSpot, BandView bandView)
         {
             _musicianModel = musicianModel;
+            _musicianPlayingSpot = musicianSpot;
+            _bandView = bandView;
 
             _musicianModel.OnStageStateChanged += OnStageStateChanged;
         }
@@ -88,7 +92,7 @@ namespace KnowCrow.AT.KeepItAlive
 
             _animator.Play(MusicianAnimationStates.Walk);
             Vector3 startPosition = transform.position;
-            var endPosition = new Vector3(startPosition.x + 10, startPosition.y, startPosition.z);
+            var endPosition = new Vector3(_musicianPlayingSpot.transform.position.x, startPosition.y, startPosition.z);
             _spriteRenderer.flipX = Vector3.Dot(endPosition - startPosition, Vector3.right) < 0;
             float movementDuration = (endPosition - startPosition).magnitude / _musicianModel.Data.MovementSpeed;
             _movementTween = DOTween.Sequence()
@@ -104,7 +108,8 @@ namespace KnowCrow.AT.KeepItAlive
 
             _animator.Play(MusicianAnimationStates.Walk);
             Vector3 startPosition = transform.position;
-            var endPosition = new Vector3(startPosition.x - 10, startPosition.y, startPosition.z);
+            var offStageSpot = _bandView.GetRandomOffStageSpot();
+            var endPosition = new Vector3(offStageSpot.position.x, startPosition.y, startPosition.z);
             _spriteRenderer.flipX = Vector3.Dot(endPosition - startPosition, Vector3.right) < 0;
             float movementDuration = (endPosition - startPosition).magnitude / _musicianModel.Data.MovementSpeed;
             _movementTween = DOTween.Sequence()
