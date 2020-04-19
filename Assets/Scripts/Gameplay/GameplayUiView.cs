@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 namespace KnowCrow.AT.KeepItAlive
@@ -8,7 +7,7 @@ namespace KnowCrow.AT.KeepItAlive
     {
         [SerializeField] private ImpressionWidget _impressionWidget = null;
         [SerializeField] private TimerWidget _timerWidget = null;
-        [SerializeField] private List<MusicianWidgetItemView> _musicianWidgets = null;
+        [SerializeField] private MusicianWidget _musicianWidget = null;
         [SerializeField] private RectTransform _bubbleContainer = null;
         [SerializeField] private GameObject _bubblePrefab = null;
         [SerializeField] private GameObject _activeStateContainer = null;
@@ -20,17 +19,7 @@ namespace KnowCrow.AT.KeepItAlive
         {
             _impressionWidget.Initialize(impressionModel);
             _timerWidget.Initialize(timer);
-            foreach (MusicianWidgetItemView musicianWidget in _musicianWidgets)
-            {
-                MusicianModel musicianModel =
-                    musicians.FirstOrDefault(model => model.MusicianType == musicianWidget.MusicianType);
-                if (musicianModel == null)
-                {
-                    Debug.LogError("MusicianModel not found");
-                }
-
-                musicianWidget.Initialize(musicianModel);
-            }
+            _musicianWidget.Initialize(musicians);
         }
 
         public void CreateBubble(string text, Transform pivotTransform)
@@ -39,16 +28,6 @@ namespace KnowCrow.AT.KeepItAlive
             var bubbleWidget = bubble.GetComponent<BubbleWidget>();
             bubbleWidget.Initialize(text, pivotTransform);
             _bubbles.Add(bubbleWidget);
-        }
-
-        public override void Dispose()
-        {
-            foreach (BubbleWidget bubbleWidget in _bubbles)
-            {
-                bubbleWidget.Dispose();
-            }
-
-            _bubbles.Clear();
         }
 
         public void ShowActiveState()
@@ -69,6 +48,16 @@ namespace KnowCrow.AT.KeepItAlive
         public void HideGameInfo()
         {
             _gameInfo.SetActive(false);
+        }
+
+        public override void Dispose()
+        {
+            foreach (BubbleWidget bubbleWidget in _bubbles)
+            {
+                bubbleWidget.Dispose();
+            }
+
+            _bubbles.Clear();
         }
     }
 }

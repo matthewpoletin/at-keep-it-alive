@@ -1281,6 +1281,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1225783080}
     m_Modifications:
+    - target: {fileID: 128660634824762345, guid: 59b034d5e3e66464bbe550c337c5ad12,
+        type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 816465189584903508, guid: 59b034d5e3e66464bbe550c337c5ad12,
         type: 3}
       propertyPath: m_AnchoredPosition.x
