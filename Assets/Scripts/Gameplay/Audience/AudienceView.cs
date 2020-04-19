@@ -10,6 +10,8 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private AudienceReviews _audienceReviews = null;
 
         private GameplayUiView _uiView;
+        private ImpressionModel _impressionModel;
+        private GameParams _gameParams;
 
         private const float BubbleAppearTimeout = 2.5f;
 
@@ -18,9 +20,11 @@ namespace KnowCrow.AT.KeepItAlive
 
         private float _reviewCountdown = 0f;
 
-        public void Initialize(GameplayUiView uiView)
+        public void Initialize(GameplayUiView uiView, ImpressionModel impressionModel, GameParams gameParams)
         {
             _uiView = uiView;
+            _impressionModel = impressionModel;
+            _gameParams = _gameParams;
 
             foreach (TableView tableView in _tablesContainer)
             {
@@ -77,11 +81,11 @@ namespace KnowCrow.AT.KeepItAlive
             _audiencePivots[resultingPair.Key] = null;
             if (bubbleWidget.IsPositive)
             {
-                // TODO: Lose points
+                _impressionModel.ImpressionLevel -= _gameParams.PositiveClickPointsLoss;
             }
             else
             {
-                // TODO: Gain points
+                _impressionModel.ImpressionLevel += _gameParams.NegativeClickPointsGain;
             }
         }
 
