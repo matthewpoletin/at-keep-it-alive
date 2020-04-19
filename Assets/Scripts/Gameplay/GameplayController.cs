@@ -13,11 +13,11 @@
             _view = gameplayView;
             _model = new GameplayModel();
 
-            _view.Initialize(_model);
-
-            _gameContext = new GameContext(_view.UiView);
+            _gameContext = new GameContext(_view.UiView, _model);
             var initialGameState = new GameState.EntryGameState();
             _gameContext.ChangeState(initialGameState);
+
+            _view.Initialize(_model, _gameContext.Timer);
 
             _gameStateObserver = new GameStateObserver(_model.ImpressionModel);
             _gameStateObserver.OnGameStateChanged += OnGameStateChanged;
@@ -25,8 +25,7 @@
 
         public override void Tick(float deltaTime)
         {
-            _model.ImpressionModel.ImpressionLevel -= 1f * deltaTime;
-
+            _gameContext.Tick(deltaTime);
             _view.Tick(deltaTime);
         }
 

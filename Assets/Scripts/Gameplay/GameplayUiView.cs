@@ -7,6 +7,7 @@ namespace KnowCrow.AT.KeepItAlive
     public class GameplayUiView : BaseView
     {
         [SerializeField] private ImpressionWidget _impressionWidget = null;
+        [SerializeField] private TimerWidget _timerWidget = null;
         [SerializeField] private List<MusicianWidgetItemView> _musicianWidgets = null;
         [SerializeField] private RectTransform _bubbleContainer = null;
         [SerializeField] private GameObject _bubblePrefab = null;
@@ -15,11 +16,10 @@ namespace KnowCrow.AT.KeepItAlive
 
         private readonly List<BubbleWidget> _bubbles = new List<BubbleWidget>();
 
-        public void Initialize(ImpressionModel impressionModel, List<MusicianModel> musicians)
+        public void Initialize(ImpressionModel impressionModel, Timer timer, List<MusicianModel> musicians)
         {
-            _gameInfo.SetActive(false);
-
             _impressionWidget.Initialize(impressionModel);
+            _timerWidget.Initialize(timer);
             foreach (MusicianWidgetItemView musicianWidget in _musicianWidgets)
             {
                 MusicianModel musicianModel =

@@ -63,6 +63,7 @@ namespace KnowCrow.AT.KeepItAlive
 
             public override void Tick(float deltaTime)
             {
+                _context.Model.ImpressionModel.ImpressionLevel -= 1f * deltaTime;
             }
 
             public override void Dispose()

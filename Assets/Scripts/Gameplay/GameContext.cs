@@ -4,16 +4,19 @@
     {
         private GameState _currentState = null;
 
-        private Timer _timer;
-
         public GameplayUiView UiView { get; private set; }
-
-        public GameContext(GameplayUiView uiView)
-        {
-            UiView = uiView;
-        }
+        public GameplayModel Model { get; private set; }
 
         public Timer Timer { get; private set; }
+
+        public GameContext(GameplayUiView uiView, GameplayModel model)
+        {
+            UiView = uiView;
+            Model = model;
+
+            Timer = new Timer(10);
+            Timer.Pause();
+        }
 
         public void ChangeState(GameState state)
         {
@@ -21,6 +24,7 @@
 
             _currentState = state;
             _currentState.SetContext(this);
+            _currentState.Initialize();
         }
 
         public void GameFinished(GameStateChangeReason reason)
@@ -31,6 +35,7 @@
         public override void Tick(float deltaTime)
         {
             _currentState.Tick(deltaTime);
+            Timer.Tick(deltaTime);
         }
 
         public override void Dispose()

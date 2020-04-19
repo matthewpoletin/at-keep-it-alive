@@ -10,11 +10,11 @@ namespace KnowCrow.AT.KeepItAlive
 
         public GameplayUiView UiView => _uiView;
 
-        public void Initialize(GameplayModel model)
+        public void Initialize(GameplayModel model, Timer timer)
         {
             _bandView.Initialize(model);
             _audienceView.Initialize();
-            _uiView.Initialize(model.ImpressionModel, model.BandList);
+            _uiView.Initialize(model.ImpressionModel, timer, model.BandList);
         }
 
         public override void Tick(float deltaTime)

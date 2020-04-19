@@ -8,7 +8,7 @@ namespace KnowCrow.AT.KeepItAlive
 
         public void SetProgress(float value)
         {
-            _progressImage.anchorMax = new Vector2(_progressImage.anchorMax.x, value);
+            _progressImage.anchorMax = new Vector2(_progressImage.anchorMax.x, Mathf.Clamp(value, 0f, 1f));
         }
     }
 }

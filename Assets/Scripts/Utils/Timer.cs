@@ -4,6 +4,7 @@ namespace KnowCrow.AT.KeepItAlive
 {
     public class Timer : ITick
     {
+        public float Duration { get; private set; }
         private float _timeLeft;
 
         public event Action<float> OnTimerTick;
@@ -20,6 +21,7 @@ namespace KnowCrow.AT.KeepItAlive
 
         public void Reset(float duration)
         {
+            Duration = duration;
             _timeLeft = duration;
         }
 
