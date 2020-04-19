@@ -15,7 +15,7 @@ namespace KnowCrow.AT.KeepItAlive
         public void Initialize(GameplayModel model, Timer timer)
         {
             _bandView.Initialize(model);
-            _audienceView.Initialize();
+            _audienceView.Initialize(_uiView);
             _uiView.Initialize(model.ImpressionModel, timer, model.BandList);
         }
 

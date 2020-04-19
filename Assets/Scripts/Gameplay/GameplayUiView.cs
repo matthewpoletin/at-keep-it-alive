@@ -22,14 +22,27 @@ namespace KnowCrow.AT.KeepItAlive
             _musicianWidget.Initialize(musicians);
         }
 
-        public void CreateBubble(string text, Transform pivotTransform)
+        public override void Tick(float deltaTime)
+        {
+            _bubbles.ForEach(bubble => bubble.Tick(deltaTime));
+        }
+
+        public BubbleWidget CreateBubble(string text, Transform pivotTransform)
         {
             GameObject bubble = Instantiate(_bubblePrefab, _bubbleContainer);
             var bubbleWidget = bubble.GetComponent<BubbleWidget>();
             bubbleWidget.Initialize(text, pivotTransform);
             _bubbles.Add(bubbleWidget);
+            return bubbleWidget;
         }
 
+        public void HideBubble(BubbleWidget bubbleWidget)
+        {
+            bubbleWidget.gameObject.SetActive(false);
+            _bubbles.Remove(bubbleWidget);
+        }
+
+        
         public void ShowActiveState()
         {
             _activeStateContainer.SetActive(true);
