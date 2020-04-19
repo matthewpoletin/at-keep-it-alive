@@ -5,7 +5,7 @@ namespace KnowCrow.AT.KeepItAlive
 {
     public class ImpressionWidget : BaseView
     {
-        private const string PROGRESS_TEXT_FORMAT = "{0}/{1}";
+        private const string PROGRESS_TEXT_FORMAT = "{0} / {1}";
 
         [SerializeField] private ProgressBarBase _verticalProgressBar = null;
         [SerializeField] private TextMeshProUGUI _text = null;
