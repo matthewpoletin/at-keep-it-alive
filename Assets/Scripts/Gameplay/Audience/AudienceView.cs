@@ -24,7 +24,7 @@ namespace KnowCrow.AT.KeepItAlive
         {
             _uiView = uiView;
             _impressionModel = impressionModel;
-            _gameParams = _gameParams;
+            _gameParams = gameParams;
 
             foreach (TableView tableView in _tablesContainer)
             {
