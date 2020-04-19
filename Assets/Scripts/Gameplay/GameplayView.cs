@@ -5,7 +5,7 @@ namespace KnowCrow.AT.KeepItAlive
     public class GameplayView : BaseView
     {
         [SerializeField] private GameParams _gameParams = null;
-        [SerializeField] private Camera _mainCamera;
+        [SerializeField] private Camera _mainCamera = null;
         [SerializeField] private GameplayUiView _uiView = null;
         [SerializeField] private BandView _bandView = null;
         [SerializeField] private AudienceView _audienceView = null;
