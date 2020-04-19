@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace KnowCrow.AT.KeepItAlive
 {
@@ -14,9 +16,13 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private GameObject _gameInfo = null;
 
         private readonly List<BubbleWidget> _bubbles = new List<BubbleWidget>();
+        private Camera _mainCamera;
 
-        public void Initialize(ImpressionModel impressionModel, Timer timer, List<MusicianModel> musicians)
+        public void Initialize(Camera uiCamera, ImpressionModel impressionModel, Timer timer,
+            List<MusicianModel> musicians)
         {
+            _mainCamera = uiCamera;
+
             _impressionWidget.Initialize(impressionModel);
             _timerWidget.Initialize(timer);
             _musicianWidget.Initialize(musicians);
@@ -27,11 +33,11 @@ namespace KnowCrow.AT.KeepItAlive
             _bubbles.ForEach(bubble => bubble.Tick(deltaTime));
         }
 
-        public BubbleWidget CreateBubble(string text, Transform pivotTransform)
+        public BubbleWidget CreateBubble(Transform pivotTransform, string text, Action<BubbleWidget> onBubbleClick)
         {
             GameObject bubble = Instantiate(_bubblePrefab, _bubbleContainer);
             var bubbleWidget = bubble.GetComponent<BubbleWidget>();
-            bubbleWidget.Initialize(text, pivotTransform);
+            bubbleWidget.Initialize(pivotTransform, _mainCamera, text, onBubbleClick);
             _bubbles.Add(bubbleWidget);
             return bubbleWidget;
         }

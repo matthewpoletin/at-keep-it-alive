@@ -18,7 +18,7 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private List<Review> _positiveReviews;
         [SerializeField] private List<Review> _negativeReviews;
 
-        public IReadOnlyList<Review> PositiveReviews => _positiveReviews;
-        public IReadOnlyList<Review> NegativeReviews => _negativeReviews;
+        public List<Review> PositiveReviews => _positiveReviews;
+        public List<Review> NegativeReviews => _negativeReviews;
     }
 }

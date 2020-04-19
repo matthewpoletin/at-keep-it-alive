@@ -344,6 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cacd15e4e830f34d9f1f7b1fa155dd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _mainCamera: {fileID: 519420031}
   _uiView: {fileID: 1430260467}
   _bandView: {fileID: 660807427}
   _audienceView: {fileID: 1227280986}
@@ -836,7 +837,7 @@ MonoBehaviour:
   - {fileID: 1217519080}
   - {fileID: 2079087456}
   - {fileID: 85489728}
-  _audienceReviews: {fileID: 0}
+  _audienceReviews: {fileID: 11400000, guid: 32a89427ee846da4a9a1b5da76a95764, type: 2}
 --- !u!1001 &1237328989
 PrefabInstance:
   m_ObjectHideFlags: 0

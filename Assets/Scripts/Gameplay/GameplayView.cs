@@ -4,6 +4,7 @@ namespace KnowCrow.AT.KeepItAlive
 {
     public class GameplayView : BaseView
     {
+        [SerializeField] private Camera _mainCamera;
         [SerializeField] private GameplayUiView _uiView = null;
         [SerializeField] private BandView _bandView = null;
         [SerializeField] private AudienceView _audienceView = null;
@@ -16,7 +17,7 @@ namespace KnowCrow.AT.KeepItAlive
         {
             _bandView.Initialize(model);
             _audienceView.Initialize(_uiView);
-            _uiView.Initialize(model.ImpressionModel, timer, model.BandList);
+            _uiView.Initialize(_mainCamera, model.ImpressionModel, timer, model.BandList);
         }
 
         public override void Tick(float deltaTime)

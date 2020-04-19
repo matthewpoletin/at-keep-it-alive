@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: AudienceReview
   m_EditorClassIdentifier: 
   _positiveReviews:
-  - _text: I'm glad that i'm here! What a wonderful perfomance that is!
+  - _text: I'm having a blast. This night is the best thing ever happening to me!
   _negativeReviews:
-  - _text: I need my money back right now or i'm gonna sue you all!
+  - _text: This concert! What a disaster. I wish I did spend my money more wisely
+      insted of comming here!

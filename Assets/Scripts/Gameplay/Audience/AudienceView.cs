@@ -11,10 +11,12 @@ namespace KnowCrow.AT.KeepItAlive
 
         private GameplayUiView _uiView;
 
+        private const float BubbleAppearTimeout = 2.5f;
+        
         private readonly Dictionary<Transform, BubbleWidget>
             _audiencePivots = new Dictionary<Transform, BubbleWidget>();
 
-        public float _negativeReviewsCountdown = 0f;
+        private float _negativeReviewsCountdown = 0f;
 
         public void Initialize(GameplayUiView uiView)
         {
@@ -33,12 +35,12 @@ namespace KnowCrow.AT.KeepItAlive
                 }
             }
 
-            _negativeReviewsCountdown = 10f;
+            _negativeReviewsCountdown = BubbleAppearTimeout;
         }
 
         public override void Tick(float deltaTime)
         {
-            if (_negativeReviewsCountdown > 0)
+            if (_negativeReviewsCountdown >= 0f)
             {
                 _negativeReviewsCountdown -= deltaTime;
                 if (_negativeReviewsCountdown < 0)
@@ -47,11 +49,9 @@ namespace KnowCrow.AT.KeepItAlive
                         _audienceReviews.NegativeReviews[Random.Range(0, _audienceReviews.NegativeReviews.Count)];
                     ShowBubbleOverRandomPivot(negativeReview.Text);
 
-                    _negativeReviewsCountdown = 10f;
+                    _negativeReviewsCountdown = BubbleAppearTimeout;
                 }
             }
-
-            string text = string.Empty;
         }
 
         private void ShowBubbleOverRandomPivot(string text)
@@ -63,7 +63,15 @@ namespace KnowCrow.AT.KeepItAlive
             }
 
             Transform randomPivotPoint = emptyPivots[Random.Range(0, emptyPivots.Count)];
-            _audiencePivots[randomPivotPoint] = _uiView.CreateBubble(text, randomPivotPoint);
+            _audiencePivots[randomPivotPoint] = _uiView.CreateBubble(randomPivotPoint, text, OnNegativeBubbleClick);
+        }
+
+        public void OnNegativeBubbleClick(BubbleWidget bubbleWidget)
+        {
+            var resultingPair = _audiencePivots.FirstOrDefault(pair => pair.Value == bubbleWidget);
+            _uiView.HideBubble(resultingPair.Value);
+            _audiencePivots[resultingPair.Key] = null;
+            // TODO: Add points
         }
 
         public override void Dispose()
