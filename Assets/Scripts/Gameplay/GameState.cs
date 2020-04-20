@@ -20,7 +20,7 @@ namespace KnowCrow.AT.KeepItAlive
         {
             public override void Initialize()
             {
-                _context.UiView.ShowGameInfo();
+                _context.UiView.ShowFrameView(Locales.IntoText);
             }
 
             public override void TogglePauseAction()
@@ -36,7 +36,7 @@ namespace KnowCrow.AT.KeepItAlive
             {
                 if (Input.GetMouseButtonDown(0))
                 {
-                    _context.UiView.HideGameInfo();
+                    _context.UiView.HideFrameView();
                     _context.ChangeState(new InitializeGameState());
                 }
             }

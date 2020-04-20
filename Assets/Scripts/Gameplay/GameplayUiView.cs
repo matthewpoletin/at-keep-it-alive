@@ -12,7 +12,6 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private RectTransform _bubbleContainer = null;
         [SerializeField] private GameObject _bubblePrefab = null;
         [SerializeField] private GameObject _activeStateContainer = null;
-        [SerializeField] private GameObject _gameInfo = null;
         [SerializeField] private GameObject _victoryScreen = null;
         [SerializeField] private GameObject _defeatScreen = null;
         [SerializeField] private FrameView _frameView = null;
@@ -80,16 +79,6 @@ namespace KnowCrow.AT.KeepItAlive
         public void HideActiveState()
         {
             _activeStateContainer.SetActive(false);
-        }
-
-        public void ShowGameInfo()
-        {
-            _gameInfo.SetActive(true);
-        }
-
-        public void HideGameInfo()
-        {
-            _gameInfo.SetActive(false);
         }
 
         public void ShowFrameView(string text)
