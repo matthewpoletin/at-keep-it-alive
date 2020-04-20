@@ -37,9 +37,7 @@ namespace KnowCrow.AT.KeepItAlive
                     Debug.LogError($"Musician spot of type '{musicianView.MusicianType}' not found");
                 }
 
-                musicianView.Initialize(musicianModel, musicianSpot, this);
-                Transform randomOffStageSpot = GetRandomOffStageSpot();
-                musicianView.transform.position = randomOffStageSpot.position;
+                musicianView.Initialize(musicianModel, musicianSpot, _offStageSpots);
             }
         }
 
@@ -53,9 +51,16 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
-        public Transform GetRandomOffStageSpot()
+        public void CleanUp()
         {
-            return _offStageSpots[Random.Range(0, _offStageSpots.Count)];
+            foreach (MusicianView musicianView in _musicians)
+            {
+                musicianView.CleanUp();
+            }
+        }
+
+        public override void Dispose()
+        {
         }
     }
 }

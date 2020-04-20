@@ -1,4 +1,5 @@
-﻿using DG.Tweening;
+﻿using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -27,18 +28,21 @@ namespace KnowCrow.AT.KeepItAlive
 
         private MusicianModel _musicianModel;
         private MusicianPlayingSpot _musicianPlayingSpot;
-        private BandView _bandView;
+        private List<Transform> _offStageSpots;
 
         private Tween _movementTween;
 
-        public void Initialize(MusicianModel musicianModel, MusicianPlayingSpot musicianSpot, BandView bandView)
+        public void Initialize(MusicianModel musicianModel, MusicianPlayingSpot musicianSpot,
+            List<Transform> offStageSpots)
         {
             _musicianModel = musicianModel;
             _musicianPlayingSpot = musicianSpot;
-            _bandView = bandView;
+            _offStageSpots = offStageSpots;
 
             _musicianModel.OnStageStateChanged += OnStageStateChanged;
             _musicianModel.OnManaLevelChanged += OnManaLevelChanged;
+
+            transform.position = GetRandomOffStageSpot().position;
         }
 
         private void OnStageStateChanged(StageState stageState)
@@ -122,7 +126,7 @@ namespace KnowCrow.AT.KeepItAlive
 
             _animator.Play(MusicianAnimationStates.Walk);
             Vector3 startPosition = transform.position;
-            var offStageSpot = _bandView.GetRandomOffStageSpot();
+            var offStageSpot = GetRandomOffStageSpot();
             var endPosition = new Vector3(offStageSpot.position.x, startPosition.y, startPosition.z);
             _spriteRenderer.flipX = Vector3.Dot(endPosition - startPosition, Vector3.right) < 0;
             float movementDuration = (endPosition - startPosition).magnitude / _musicianModel.Data.MovementSpeed;
@@ -131,6 +135,21 @@ namespace KnowCrow.AT.KeepItAlive
                 .OnComplete(() => _musicianModel.StageState = StageState.OffStage)
                 .SetAutoKill(false)
                 .Play();
+        }
+
+        private Transform GetRandomOffStageSpot()
+        {
+            return _offStageSpots[Random.Range(0, _offStageSpots.Count)];
+        }
+
+        public void CleanUp()
+        {
+            _musicianModel.StageState = StageState.OffStage;
+
+            _movementTween?.Kill();
+            _movementTween = null;
+
+            transform.position = GetRandomOffStageSpot().position;
         }
 
         public override void Dispose()

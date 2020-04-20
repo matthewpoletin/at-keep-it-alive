@@ -37,7 +37,7 @@ namespace KnowCrow.AT.KeepItAlive
                 if (Input.GetMouseButtonDown(0))
                 {
                     _context.UiView.HideGameInfo();
-                    _context.ChangeState(new RunningGameState());
+                    _context.ChangeState(new InitializeGamState());
                 }
             }
 
@@ -73,13 +73,43 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
+        public class InitializeGamState : GameState
+        {
+            public override void Initialize()
+            {
+                foreach (MusicianModel musicianModel in _context.Model.BandList)
+                {
+                    musicianModel.ManaLevel = 1f;
+                }
+
+                _context.Model.ImpressionModel.ImpressionLevel = 1;
+                _context.GameplayController.BandView.CleanUp();
+            }
+
+            public override void Tick(float deltaTime)
+            {
+                _context.ChangeState(new RunningGameState());
+            }
+
+            public override void Dispose()
+            {
+            }
+
+            public override void TogglePauseAction()
+            {
+            }
+
+            public override void FinishGameAction(GameStateChangeReason reason)
+            {
+            }
+        }
+
         public class RunningGameState : GameState
         {
             public override void Initialize()
             {
                 _context.GameplayController.AudienceView.SetActive(true);
                 _context.Timer.Unpause();
-                _context.Model.ImpressionModel.ImpressionLevel = 1;
                 _context.Timer.Reset(_context.GameplayController.GameParams.SessionDurationSec);
                 _context.EnvironmentView.ShowShade();
             }
@@ -99,13 +129,17 @@ namespace KnowCrow.AT.KeepItAlive
                 _context.Model.ImpressionModel.ImpressionLevel -=
                     _context.GameplayController.GameParams.ImpressionLossSpeed * deltaTime;
                 int musiciansOnStageActive = _context.Model.BandList
-                    .Where(musicianModel => musicianModel.StageState == StageState.OnStage && !musicianModel.IsTired).ToList().Count;
+                    .Where(musicianModel => musicianModel.StageState == StageState.OnStage && !musicianModel.IsTired)
+                    .ToList().Count;
                 int musiciansOnStageTired = _context.Model.BandList
-                    .Where(musicianModel => musicianModel.StageState == StageState.OnStage && musicianModel.IsTired).ToList().Count;
+                    .Where(musicianModel => musicianModel.StageState == StageState.OnStage && musicianModel.IsTired)
+                    .ToList().Count;
                 _context.Model.ImpressionModel.ImpressionLevel +=
-                    musiciansOnStageActive * _context.GameplayController.GameParams.ImpressionGainPerMusicianSpeed * deltaTime;
+                    musiciansOnStageActive * _context.GameplayController.GameParams.ImpressionGainPerMusicianSpeed *
+                    deltaTime;
                 _context.Model.ImpressionModel.ImpressionLevel -=
-                    musiciansOnStageTired * _context.GameplayController.GameParams.ImpressionLossPerMusicianTired * deltaTime;
+                    musiciansOnStageTired * _context.GameplayController.GameParams.ImpressionLossPerMusicianTired *
+                    deltaTime;
             }
 
             public override void Dispose()
@@ -182,7 +216,7 @@ namespace KnowCrow.AT.KeepItAlive
             {
                 if (Input.anyKeyDown)
                 {
-                    _context.ChangeState(new RunningGameState());
+                    _context.ChangeState(new InitializeGamState());
                 }
             }
 
