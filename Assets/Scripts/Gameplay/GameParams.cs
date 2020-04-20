@@ -10,11 +10,15 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private float _impressionLossSpeed = 0.01f;
         [SerializeField] private float _positiveClickPointsLoss = 1f;
         [SerializeField] private float _negativeClickPointsGain = 1f;
+        [SerializeField] private float _positiveBubbleFadeTimeSec = 10f;
+        [SerializeField] private float _negativeBubbleFadeTimeSec = 10f;
 
         public float SessionDurationSec => _sessionDurationSec;
         public float ImpressionGainPerMusicianSpeed => _impressionGainPerMusicianSpeed;
         public float ImpressionLossSpeed => _impressionLossSpeed;
         public float PositiveClickPointsLoss => _positiveClickPointsLoss;
         public float NegativeClickPointsGain => _negativeClickPointsGain;
+        public float PositiveBubbleFadeTimeSec => _positiveBubbleFadeTimeSec;
+        public float NegativeBubbleFadeTimeSec => _negativeBubbleFadeTimeSec;
     }
 }

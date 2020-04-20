@@ -12,17 +12,20 @@ namespace KnowCrow.AT.KeepItAlive
 
         private Transform _pivotTransform;
         private Camera _mainCamera;
+        private float _fadeTimeout;
         public bool IsPositive { get; private set; }
         private Action<BubbleWidget> _onBubbleClick;
-
+        private Action<BubbleWidget> _onBubbleFaded;
 
         public void Initialize(Transform pivotTransform, Camera mainCamera, string text,
-            bool isPositive, Action<BubbleWidget> onBubbleClick)
+            bool isPositive, float fadeDuration, Action<BubbleWidget> onBubbleClick, Action<BubbleWidget> onBubbleFaded)
         {
             _pivotTransform = pivotTransform;
             _mainCamera = mainCamera;
             IsPositive = isPositive;
+            _fadeTimeout = fadeDuration;
             _onBubbleClick = onBubbleClick;
+            _onBubbleFaded = onBubbleFaded;
 
             _text.text = text;
 
@@ -46,6 +49,15 @@ namespace KnowCrow.AT.KeepItAlive
 
         public override void Tick(float deltaTime)
         {
+            if (_fadeTimeout >= 0)
+            {
+                _fadeTimeout -= deltaTime;
+                if (_fadeTimeout < 0)
+                {
+                    _onBubbleFaded.Invoke(this);
+                }
+            }
+
             UpdatePosition();
         }
 

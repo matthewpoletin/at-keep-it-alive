@@ -6,7 +6,6 @@
         private GameplayModel _model;
 
         public GameParams GameParams => _view.GameParams;
-        public BandView BandView => _view.BandView;
 
         private readonly GameStateObserver _gameStateObserver;
         private readonly GameContext _gameContext;

@@ -29,15 +29,20 @@ namespace KnowCrow.AT.KeepItAlive
 
         public override void Tick(float deltaTime)
         {
-            _bubbles.ForEach(bubble => bubble.Tick(deltaTime));
+            // TODO: Temporary hack because bubble is removed in tick, but im too tired
+            for (int index = _bubbles.Count - 1; index >= 0; index--)
+            {
+                BubbleWidget bubble = _bubbles[index];
+                bubble.Tick(deltaTime);
+            }
         }
 
-        public BubbleWidget CreateBubble(Transform pivotTransform, string text, bool isPositive,
-            Action<BubbleWidget> onBubbleClick)
+        public BubbleWidget CreateBubble(Transform pivotTransform, string text, bool isPositive, float fadeDuration,
+            Action<BubbleWidget> onBubbleClick, Action<BubbleWidget> onBubbleFaded)
         {
             GameObject bubble = Instantiate(_bubblePrefab, _bubbleContainer);
             var bubbleWidget = bubble.GetComponent<BubbleWidget>();
-            bubbleWidget.Initialize(pivotTransform, _mainCamera, text, isPositive, onBubbleClick);
+            bubbleWidget.Initialize(pivotTransform, _mainCamera, text, isPositive, fadeDuration, onBubbleClick, onBubbleFaded);
             _bubbles.Add(bubbleWidget);
             return bubbleWidget;
         }
@@ -48,7 +53,6 @@ namespace KnowCrow.AT.KeepItAlive
             _bubbles.Remove(bubbleWidget);
         }
 
-        
         public void ShowActiveState()
         {
             _activeStateContainer.SetActive(true);

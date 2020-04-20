@@ -69,9 +69,20 @@ namespace KnowCrow.AT.KeepItAlive
             var reviewsList = isPositive ? _audienceReviews.PositiveReviews : _audienceReviews.NegativeReviews;
             Review review = reviewsList[Random.Range(0, reviewsList.Count)];
 
+            float fadeDurationSec =
+                isPositive ? _gameParams.PositiveBubbleFadeTimeSec : _gameParams.NegativeBubbleFadeTimeSec;
+
             Transform randomPivotPoint = emptyPivots[Random.Range(0, emptyPivots.Count)];
-            BubbleWidget bubbleWidget = _uiView.CreateBubble(randomPivotPoint, review.Text, isPositive, OnBubbleClick);
+            BubbleWidget bubbleWidget = _uiView.CreateBubble(randomPivotPoint, review.Text, isPositive, fadeDurationSec,
+                OnBubbleClick, OnBubbleFaded);
             _audiencePivots[randomPivotPoint] = bubbleWidget;
+        }
+
+        private void OnBubbleFaded(BubbleWidget bubbleWidget)
+        {
+            var resultingPair = _audiencePivots.FirstOrDefault(pair => pair.Value == bubbleWidget);
+            _uiView.HideBubble(resultingPair.Value);
+            _audiencePivots[resultingPair.Key] = null;
         }
 
         private void OnBubbleClick(BubbleWidget bubbleWidget)
