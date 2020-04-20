@@ -15,5 +15,7 @@ MonoBehaviour:
   _sessionDurationSec: 60
   _impressionGainPerMusicianSpeed: 0.0001
   _impressionLossSpeed: 0.01
-  _positiveClickPointsLoss: 1
-  _negativeClickPointsGain: 1
+  _positiveClickPointsLoss: 0.05
+  _negativeClickPointsGain: 0.05
+  _positiveBubbleFadeTimeSec: 10
+  _negativeBubbleFadeTimeSec: 10
