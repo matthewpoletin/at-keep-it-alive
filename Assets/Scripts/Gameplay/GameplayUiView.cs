@@ -101,5 +101,35 @@ namespace KnowCrow.AT.KeepItAlive
 
             _bubbles.Clear();
         }
+
+        public void HideMusiciansWidget()
+        {
+            _musicianWidget.gameObject.SetActive(false);
+        }
+
+        public void HideTimerWidget()
+        {
+            _timerWidget.gameObject.SetActive(false);
+        }
+
+        public void HideImpressionWidget()
+        {
+            _impressionWidget.gameObject.SetActive(false);
+        }
+        
+        public void ShowMusiciansWidget()
+        {
+            _musicianWidget.gameObject.SetActive(true);
+        }
+
+        public void ShowTimerWidget()
+        {
+            _timerWidget.gameObject.SetActive(true);
+        }
+
+        public void ShowImpressionWidget()
+        {
+            _impressionWidget.gameObject.SetActive(true);
+        }
     }
 }
