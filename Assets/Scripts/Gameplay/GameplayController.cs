@@ -8,6 +8,7 @@ namespace KnowCrow.AT.KeepItAlive
         private GameplayModel _model;
 
         public GameParams GameParams => _view.GameParams;
+        public AudienceView AudienceView => _view.AudienceView;
 
         private readonly GameStateObserver _gameStateObserver;
         private readonly GameContext _gameContext;

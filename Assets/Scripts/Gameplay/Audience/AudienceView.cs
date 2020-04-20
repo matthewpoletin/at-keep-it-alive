@@ -20,6 +20,8 @@ namespace KnowCrow.AT.KeepItAlive
 
         private float _reviewCountdown = 0f;
 
+        private bool _isActive;
+
         public void Initialize(GameplayUiView uiView, ImpressionModel impressionModel, GameParams gameParams)
         {
             _uiView = uiView;
@@ -44,6 +46,11 @@ namespace KnowCrow.AT.KeepItAlive
 
         public override void Tick(float deltaTime)
         {
+            if (!_isActive)
+            {
+                return;
+            }
+
             if (_reviewCountdown >= 0f)
             {
                 _reviewCountdown -= deltaTime;
@@ -100,12 +107,27 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
+        public void SetActive(bool value)
+        {
+            _isActive = value;
+        }
+
+        public void RemoveAllBubbles()
+        {
+            foreach (BubbleWidget bubble in _audiencePivots.Values.Where(widget => widget != null).ToList())
+            {
+                _uiView.HideBubble(bubble);
+            }
+
+            foreach (Transform key in _audiencePivots.Keys.ToList())
+            {
+                _audiencePivots[key] = null;
+            }
+        }
+
         public override void Dispose()
         {
-            foreach (var audiencePivot in _audiencePivots)
-            {
-                _uiView.HideBubble(audiencePivot.Value);
-            }
+            RemoveAllBubbles();
 
             _audiencePivots.Clear();
         }

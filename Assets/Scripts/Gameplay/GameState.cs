@@ -77,6 +77,7 @@ namespace KnowCrow.AT.KeepItAlive
         {
             public override void Initialize()
             {
+                _context.GameplayController.AudienceView.SetActive(true);
                 _context.Timer.Unpause();
                 _context.Model.ImpressionModel.ImpressionLevel = 1;
                 _context.Timer.Reset(_context.GameplayController.GameParams.SessionDurationSec);
@@ -109,6 +110,7 @@ namespace KnowCrow.AT.KeepItAlive
 
             public override void Dispose()
             {
+                _context.GameplayController.AudienceView.SetActive(false);
                 _context.Timer.Pause();
             }
         }
@@ -155,6 +157,7 @@ namespace KnowCrow.AT.KeepItAlive
 
             public override void Initialize()
             {
+                _context.GameplayController.AudienceView.RemoveAllBubbles();
                 _context.UiView.HideAllScreens();
                 switch (_reason)
                 {

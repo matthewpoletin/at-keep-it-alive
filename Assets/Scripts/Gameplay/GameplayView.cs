@@ -14,6 +14,7 @@ namespace KnowCrow.AT.KeepItAlive
         public GameParams GameParams => _gameParams;
         public GameplayUiView UiView => _uiView;
         public BandView BandView => _bandView;
+        public AudienceView AudienceView => _audienceView;
         public EnvironmentView EnvironmentView => _environmentView;
 
         public void Initialize(GameplayModel model, Timer timer)
