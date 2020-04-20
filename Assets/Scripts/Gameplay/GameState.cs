@@ -132,7 +132,7 @@ namespace KnowCrow.AT.KeepItAlive
 
                 foreach (MusicianModel musicianModel in _context.Model.BandList)
                 {
-                    if (musicianModel.StageState == StageState.OnStage && !musicianModel.IsTired)
+                    if (musicianModel.StageState == StageState.OnStage && musicianModel.IsTired)
                     {
                         _context.Model.ImpressionModel.ImpressionLevel -=
                             musicianModel.Data.TiredImpressionLoss * deltaTime;
