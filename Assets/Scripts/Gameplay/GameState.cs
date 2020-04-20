@@ -128,19 +128,44 @@ namespace KnowCrow.AT.KeepItAlive
             public override void Tick(float deltaTime)
             {
                 _context.Model.ImpressionModel.ImpressionLevel -=
-                    _context.GameplayController.GameParams.ImpressionLossSpeed * deltaTime;
-                int musiciansOnStageActive = _context.Model.BandList
-                    .Where(musicianModel => musicianModel.StageState == StageState.OnStage && !musicianModel.IsTired)
-                    .ToList().Count;
-                int musiciansOnStageTired = _context.Model.BandList
-                    .Where(musicianModel => musicianModel.StageState == StageState.OnStage && musicianModel.IsTired)
-                    .ToList().Count;
-                _context.Model.ImpressionModel.ImpressionLevel +=
-                    musiciansOnStageActive * _context.GameplayController.GameParams.ImpressionGainPerMusicianSpeed *
-                    deltaTime;
-                _context.Model.ImpressionModel.ImpressionLevel -=
-                    musiciansOnStageTired * _context.GameplayController.GameParams.ImpressionLossPerMusicianTired *
-                    deltaTime;
+                    _context.GameplayController.GameParams.PassiveImpressionLossSpeed * deltaTime;
+
+                foreach (MusicianModel musicianModel in _context.Model.BandList)
+                {
+                    if (musicianModel.StageState == StageState.OnStage && !musicianModel.IsTired)
+                    {
+                        _context.Model.ImpressionModel.ImpressionLevel -=
+                            musicianModel.Data.TiredImpressionLoss * deltaTime;
+                    }
+                }
+
+                int musiciansOutOfStageCount =
+                    _context.Model.BandList.Count(model => model.StageState != StageState.OnStage);
+
+                float lossValue = 0f;
+                switch (musiciansOutOfStageCount)
+                {
+                    case 0:
+                        lossValue = _context.GameplayController.GameParams.MusiciansOutOfStage0;
+                        break;
+                    case 1:
+                        lossValue = _context.GameplayController.GameParams.MusiciansOutOfStage1;
+                        break;
+                    case 2:
+                        lossValue = _context.GameplayController.GameParams.MusiciansOutOfStage2;
+                        break;
+                    case 3:
+                        lossValue = _context.GameplayController.GameParams.MusiciansOutOfStage3;
+                        break;
+                    case 4:
+                        lossValue = _context.GameplayController.GameParams.MusiciansOutOfStage4;
+                        break;
+                    default:
+                        Debug.LogError("How can you have more than 4 musicians you tell me");
+                        break;
+                }
+
+                _context.Model.ImpressionModel.ImpressionLevel -= lossValue * deltaTime;
             }
 
             public override void Dispose()

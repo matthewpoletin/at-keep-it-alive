@@ -8,9 +8,11 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private float _movementSpeed = 1f;
         [SerializeField] private float _manaLossSpeed = 1f;
         [SerializeField] private float _manaGainSpeed = 1f;
+        [SerializeField] private float _tiredImpressionLoss = 0.01f;
 
         public float MovementSpeed => _movementSpeed;
         public float ManaLossSpeed => _manaLossSpeed;
         public float ManaGainSpeed => _manaGainSpeed;
+        public float TiredImpressionLoss => _tiredImpressionLoss;
     }
 }
