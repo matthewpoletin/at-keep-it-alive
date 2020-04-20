@@ -15,6 +15,7 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private GameObject _gameInfo = null;
         [SerializeField] private GameObject _victoryScreen = null;
         [SerializeField] private GameObject _defeatScreen = null;
+        [SerializeField] private FrameView _frameView = null;
 
         private readonly List<BubbleWidget> _bubbles = new List<BubbleWidget>();
         private Camera _mainCamera;
@@ -90,6 +91,17 @@ namespace KnowCrow.AT.KeepItAlive
         public void HideGameInfo()
         {
             _gameInfo.SetActive(false);
+        }
+
+        public void ShowFrameView(string text)
+        {
+            _frameView.gameObject.SetActive(true);
+            _frameView.SetText(text);
+        }
+
+        public void HideFrameView()
+        {
+            _frameView.gameObject.SetActive(false);
         }
 
         public override void Dispose()
