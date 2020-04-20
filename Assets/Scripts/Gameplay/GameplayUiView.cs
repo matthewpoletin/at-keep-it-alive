@@ -40,13 +40,12 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
-        public BubbleWidget CreateBubble(Transform pivotTransform, string text, bool isPositive, float fadeDuration,
-            Action<BubbleWidget> onBubbleClick, Action<BubbleWidget> onBubbleFaded)
+        public BubbleWidget CreateBubble(Transform pivotTransform, string text, bool isPositive,
+            Action<BubbleWidget> onBubbleClick)
         {
             GameObject bubble = Instantiate(_bubblePrefab, _bubbleContainer);
             var bubbleWidget = bubble.GetComponent<BubbleWidget>();
-            bubbleWidget.Initialize(pivotTransform, _mainCamera, text, isPositive, fadeDuration, onBubbleClick,
-                onBubbleFaded);
+            bubbleWidget.Initialize(pivotTransform, _mainCamera, text, isPositive, onBubbleClick);
             _bubbles.Add(bubbleWidget);
             return bubbleWidget;
         }
