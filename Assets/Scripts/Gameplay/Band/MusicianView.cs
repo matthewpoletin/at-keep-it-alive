@@ -12,6 +12,7 @@ namespace KnowCrow.AT.KeepItAlive
         public static readonly int Idle = Animator.StringToHash("idle");
         public static readonly int Walk = Animator.StringToHash("walk");
         public static readonly int StagePlay = Animator.StringToHash("stage_play");
+        public static readonly int StageTired = Animator.StringToHash("stage_tired");
     }
 
     public class MusicianView : BaseView
@@ -37,6 +38,7 @@ namespace KnowCrow.AT.KeepItAlive
             _bandView = bandView;
 
             _musicianModel.OnStageStateChanged += OnStageStateChanged;
+            _musicianModel.OnManaLevelChanged += OnManaLevelChanged;
         }
 
         private void OnStageStateChanged(StageState stageState)
@@ -63,6 +65,14 @@ namespace KnowCrow.AT.KeepItAlive
                     MoveFromStage();
                     break;
                 }
+            }
+        }
+
+        private void OnManaLevelChanged(float value)
+        {
+            if (_musicianModel.StageState == StageState.OnStage && _musicianModel.IsTired)
+            {
+                _animator.Play(MusicianAnimationStates.StageTired);
             }
         }
 
@@ -126,6 +136,7 @@ namespace KnowCrow.AT.KeepItAlive
         public override void Dispose()
         {
             _musicianModel.OnStageStateChanged -= OnStageStateChanged;
+            _musicianModel.OnManaLevelChanged -= OnManaLevelChanged;
 
             _movementTween?.Kill();
             _movementTween = null;
