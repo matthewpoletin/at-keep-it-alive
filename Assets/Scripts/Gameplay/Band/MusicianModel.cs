@@ -80,6 +80,8 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
+        public bool IsTired => Mathf.Approximately(_manaLevel, 0f);
+
         public MusicianModel(MusicianType musicianType, MusicianData data)
         {
             MusicianType = musicianType;

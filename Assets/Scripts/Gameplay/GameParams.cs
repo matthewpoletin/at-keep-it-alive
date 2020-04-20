@@ -7,6 +7,7 @@ namespace KnowCrow.AT.KeepItAlive
     {
         [SerializeField] private float _sessionDurationSec = 60f;
         [SerializeField] private float _impressionGainPerMusicianSpeed = 0.01f;
+        [SerializeField] private float _impressionLossPerMusicianTired = 0.01f;
         [SerializeField] private float _impressionLossSpeed = 0.01f;
         [SerializeField] private float _positiveClickPointsLoss = 1f;
         [SerializeField] private float _negativeClickPointsGain = 1f;
@@ -15,6 +16,7 @@ namespace KnowCrow.AT.KeepItAlive
 
         public float SessionDurationSec => _sessionDurationSec;
         public float ImpressionGainPerMusicianSpeed => _impressionGainPerMusicianSpeed;
+        public float ImpressionLossPerMusicianTired => _impressionLossPerMusicianTired;
         public float ImpressionLossSpeed => _impressionLossSpeed;
         public float PositiveClickPointsLoss => _positiveClickPointsLoss;
         public float NegativeClickPointsGain => _negativeClickPointsGain;

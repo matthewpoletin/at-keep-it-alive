@@ -97,10 +97,14 @@ namespace KnowCrow.AT.KeepItAlive
             {
                 _context.Model.ImpressionModel.ImpressionLevel -=
                     _context.GameplayController.GameParams.ImpressionLossSpeed * deltaTime;
-                int musiciansOnStageCount = _context.Model.BandList
-                    .Where(musicianModel => musicianModel.StageState == StageState.OnStage).ToList().Count;
+                int musiciansOnStageActive = _context.Model.BandList
+                    .Where(musicianModel => musicianModel.StageState == StageState.OnStage && !musicianModel.IsTired).ToList().Count;
+                int musiciansOnStageTired = _context.Model.BandList
+                    .Where(musicianModel => musicianModel.StageState == StageState.OnStage && musicianModel.IsTired).ToList().Count;
                 _context.Model.ImpressionModel.ImpressionLevel +=
-                    musiciansOnStageCount * _context.GameplayController.GameParams.ImpressionGainPerMusicianSpeed;
+                    musiciansOnStageActive * _context.GameplayController.GameParams.ImpressionGainPerMusicianSpeed * deltaTime;
+                _context.Model.ImpressionModel.ImpressionLevel -=
+                    musiciansOnStageTired * _context.GameplayController.GameParams.ImpressionLossPerMusicianTired * deltaTime;
             }
 
             public override void Dispose()
