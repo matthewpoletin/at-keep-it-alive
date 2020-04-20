@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _movementSpeed: 2.5
   _manaLossSpeed: 0.01
-  _manaGainSpeed: 0.05
+  _manaGainSpeed: 0.04

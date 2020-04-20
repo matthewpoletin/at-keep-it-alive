@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f8eb55879084ec0a7e1b748b795cc8b, type: 3}
   m_Name: GameParams
   m_EditorClassIdentifier: 
-  _sessionDurationSec: 60
+  _sessionDurationSec: 180
   _impressionGainPerMusicianSpeed: 0.0001
+  _impressionLossPerMusicianTired: 0.01
   _impressionLossSpeed: 0.01
-  _positiveClickPointsLoss: 0.05
-  _negativeClickPointsGain: 0.05
-  _positiveBubbleFadeTimeSec: 10
-  _negativeBubbleFadeTimeSec: 10
+  _positiveClickPointsLoss: 0.2
+  _negativeClickPointsGain: 0.03
+  _positiveBubbleFadeTimeSec: 6
+  _negativeBubbleFadeTimeSec: 4

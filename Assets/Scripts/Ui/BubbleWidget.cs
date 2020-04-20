@@ -27,12 +27,12 @@ namespace KnowCrow.AT.KeepItAlive
 
             _text.text = text;
 
-#if UNITY_EDITOR
+/*#if UNITY_EDITOR
             foreach (Image image in gameObject.GetComponentsInChildren<Image>())
             {
                 image.color = IsPositive ? Color.green : Color.red;
             }
-#endif
+#endif*/
 
             UpdatePosition();
 
