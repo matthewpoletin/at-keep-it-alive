@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using TMPro.EditorUtilities;
 using UnityEngine;
 
 namespace KnowCrow.AT.KeepItAlive
@@ -55,27 +54,22 @@ namespace KnowCrow.AT.KeepItAlive
 
             public override void Initialize()
             {
-                throw new System.NotImplementedException();
             }
 
             public override void Tick(float deltaTime)
             {
-                throw new System.NotImplementedException();
             }
 
             public override void TogglePauseAction()
             {
-                throw new System.NotImplementedException();
             }
 
             public override void FinishGameAction(GameStateChangeReason reason)
             {
-                throw new System.NotImplementedException();
             }
 
             public override void Dispose()
             {
-                throw new System.NotImplementedException();
             }
         }
 
@@ -84,6 +78,8 @@ namespace KnowCrow.AT.KeepItAlive
             public override void Initialize()
             {
                 _context.Timer.Unpause();
+                _context.Model.ImpressionModel.ImpressionLevel = 1;
+                _context.Timer.Reset(_context.GameplayController.GameParams.SessionDurationSec);
                 _context.EnvironmentView.ShowShade();
             }
 
@@ -155,7 +151,16 @@ namespace KnowCrow.AT.KeepItAlive
 
             public override void Initialize()
             {
-                // TODO: Open game finished dialog
+                _context.UiView.HideAllScreens();
+                switch (_reason)
+                {
+                    case GameStateChangeReason.GameLost:
+                        _context.UiView.ShowDefeatScreen();
+                        break;
+                    case GameStateChangeReason.GameWon:
+                        _context.UiView.ShowVictoryScreen();
+                        break;
+                }
             }
 
             public override void TogglePauseAction()
@@ -168,10 +173,15 @@ namespace KnowCrow.AT.KeepItAlive
 
             public override void Tick(float deltaTime)
             {
+                if (Input.anyKeyDown)
+                {
+                    _context.ChangeState(new RunningGameState());
+                }
             }
 
             public override void Dispose()
             {
+                _context.UiView.HideAllScreens();
             }
         }
     }

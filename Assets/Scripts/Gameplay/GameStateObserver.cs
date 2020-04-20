@@ -12,14 +12,17 @@ namespace KnowCrow.AT.KeepItAlive
     public class GameStateObserver : IDisposable
     {
         private readonly ImpressionModel _impressionModel;
+        private readonly Timer _timer;
 
         public event Action<GameStateChangeReason> OnGameStateChanged;
 
-        public GameStateObserver(ImpressionModel impressionModel)
+        public GameStateObserver(ImpressionModel impressionModel, Timer timer)
         {
             _impressionModel = impressionModel;
+            _timer = timer;
 
             _impressionModel.OnImpressionLevelChanged += OnImpressionLevelChanged;
+            _timer.OnTimerElapsed += OnTimerElapsed;
         }
 
         private void OnImpressionLevelChanged(float impressionLevel)
@@ -30,7 +33,7 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
-        private void OnTimerOver()
+        private void OnTimerElapsed()
         {
             OnGameStateChanged?.Invoke(GameStateChangeReason.GameWon);
         }
@@ -38,6 +41,7 @@ namespace KnowCrow.AT.KeepItAlive
         public void Dispose()
         {
             _impressionModel.OnImpressionLevelChanged -= OnImpressionLevelChanged;
+            _timer.OnTimerElapsed -= OnTimerElapsed;
         }
     }
 }

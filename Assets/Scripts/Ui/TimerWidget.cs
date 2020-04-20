@@ -19,7 +19,6 @@ namespace KnowCrow.AT.KeepItAlive
             _timer = timer;
 
             _timer.OnTimerTick += OnTimerTick;
-            _timer.OnTimerElapsed += OnTimerElapsed;
         }
 
         private void OnTimerTick(float value)
@@ -29,11 +28,6 @@ namespace KnowCrow.AT.KeepItAlive
             _text.text = new DateTime().AddHours(TIME_START)
                 .AddHours((TIME_END - TIME_START) * progress)
                 .ToShortTimeString();
-        }
-
-        private void OnTimerElapsed()
-        {
-            _timer.OnTimerTick -= OnTimerTick;
         }
 
         public override void Dispose()

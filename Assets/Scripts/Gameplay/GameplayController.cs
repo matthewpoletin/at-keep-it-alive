@@ -23,7 +23,7 @@ namespace KnowCrow.AT.KeepItAlive
 
             _view.Initialize(_model, _gameContext.Timer);
 
-            _gameStateObserver = new GameStateObserver(_model.ImpressionModel);
+            _gameStateObserver = new GameStateObserver(_model.ImpressionModel, _gameContext.Timer);
             _gameStateObserver.OnGameStateChanged += OnGameStateChanged;
         }
 

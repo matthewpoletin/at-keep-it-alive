@@ -23,6 +23,7 @@ namespace KnowCrow.AT.KeepItAlive
         {
             Duration = duration;
             _timeLeft = duration;
+            _elapsed = false;
         }
 
         public void Tick(float deltaTime)
