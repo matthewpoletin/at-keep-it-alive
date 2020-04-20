@@ -42,7 +42,8 @@ namespace KnowCrow.AT.KeepItAlive
             _musicianModel.OnStageStateChanged += OnStageStateChanged;
             _musicianModel.OnManaLevelChanged += OnManaLevelChanged;
 
-            transform.position = GetRandomOffStageSpot().position;
+            transform.position = musicianSpot.transform.position;
+            _musicianModel.StageState = StageState.OnStage;
         }
 
         private void OnStageStateChanged(StageState stageState)
@@ -144,12 +145,12 @@ namespace KnowCrow.AT.KeepItAlive
 
         public void CleanUp()
         {
-            _musicianModel.StageState = StageState.OffStage;
+            _musicianModel.StageState = StageState.OnStage;
 
             _movementTween?.Kill();
             _movementTween = null;
 
-            transform.position = GetRandomOffStageSpot().position;
+            transform.position = _musicianPlayingSpot.transform.position;
         }
 
         public override void Dispose()
