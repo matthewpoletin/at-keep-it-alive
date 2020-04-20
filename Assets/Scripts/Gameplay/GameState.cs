@@ -14,7 +14,7 @@ namespace KnowCrow.AT.KeepItAlive
         }
 
         public abstract void Initialize();
-        public abstract void ActivateAction();
+        public abstract void TogglePauseAction();
         public abstract void FinishGameAction(GameStateChangeReason reason);
 
         public class EntryGameState : GameState
@@ -24,7 +24,7 @@ namespace KnowCrow.AT.KeepItAlive
                 _context.UiView.ShowGameInfo();
             }
 
-            public override void ActivateAction()
+            public override void TogglePauseAction()
             {
                 _context.ChangeState(new RunningGameState());
             }
@@ -47,6 +47,38 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
+        public class TutorialGameState : GameState
+        {
+            public TutorialGameState()
+            {
+            }
+
+            public override void Initialize()
+            {
+                throw new System.NotImplementedException();
+            }
+
+            public override void Tick(float deltaTime)
+            {
+                throw new System.NotImplementedException();
+            }
+
+            public override void TogglePauseAction()
+            {
+                throw new System.NotImplementedException();
+            }
+
+            public override void FinishGameAction(GameStateChangeReason reason)
+            {
+                throw new System.NotImplementedException();
+            }
+
+            public override void Dispose()
+            {
+                throw new System.NotImplementedException();
+            }
+        }
+
         public class RunningGameState : GameState
         {
             public override void Initialize()
@@ -55,8 +87,9 @@ namespace KnowCrow.AT.KeepItAlive
                 _context.EnvironmentView.ShowShade();
             }
 
-            public override void ActivateAction()
+            public override void TogglePauseAction()
             {
+                _context.ChangeState(new PausedGameState());
             }
 
             public override void FinishGameAction(GameStateChangeReason reason)
@@ -76,6 +109,7 @@ namespace KnowCrow.AT.KeepItAlive
 
             public override void Dispose()
             {
+                _context.Timer.Pause();
             }
         }
 
@@ -91,7 +125,7 @@ namespace KnowCrow.AT.KeepItAlive
                 _context.EnvironmentView.HideFade(1f);
             }
 
-            public override void ActivateAction()
+            public override void TogglePauseAction()
             {
                 _context.ChangeState(new RunningGameState());
             }
@@ -124,7 +158,7 @@ namespace KnowCrow.AT.KeepItAlive
                 // TODO: Open game finished dialog
             }
 
-            public override void ActivateAction()
+            public override void TogglePauseAction()
             {
             }
 

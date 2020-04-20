@@ -31,6 +31,11 @@
             _currentState.Initialize();
         }
 
+        public void TogglePause()
+        {
+            _currentState.TogglePauseAction();
+        }
+
         public void GameFinished(GameStateChangeReason reason)
         {
             _currentState.FinishGameAction(reason);

@@ -13,6 +13,8 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private GameObject _bubblePrefab = null;
         [SerializeField] private GameObject _activeStateContainer = null;
         [SerializeField] private GameObject _gameInfo = null;
+        [SerializeField] private GameObject _victoryScreen = null;
+        [SerializeField] private GameObject _defeatScreen = null;
 
         private readonly List<BubbleWidget> _bubbles = new List<BubbleWidget>();
         private Camera _mainCamera;
@@ -42,7 +44,8 @@ namespace KnowCrow.AT.KeepItAlive
         {
             GameObject bubble = Instantiate(_bubblePrefab, _bubbleContainer);
             var bubbleWidget = bubble.GetComponent<BubbleWidget>();
-            bubbleWidget.Initialize(pivotTransform, _mainCamera, text, isPositive, fadeDuration, onBubbleClick, onBubbleFaded);
+            bubbleWidget.Initialize(pivotTransform, _mainCamera, text, isPositive, fadeDuration, onBubbleClick,
+                onBubbleFaded);
             _bubbles.Add(bubbleWidget);
             return bubbleWidget;
         }
@@ -51,6 +54,22 @@ namespace KnowCrow.AT.KeepItAlive
         {
             bubbleWidget.gameObject.SetActive(false);
             _bubbles.Remove(bubbleWidget);
+        }
+
+        public void ShowVictoryScreen()
+        {
+            _victoryScreen.SetActive(true);
+        }
+
+        public void ShowDefeatScreen()
+        {
+            _defeatScreen.SetActive(true);
+        }
+
+        public void HideAllScreens()
+        {
+            _victoryScreen.SetActive(false);
+            _defeatScreen.SetActive(false);
         }
 
         public void ShowActiveState()

@@ -1,4 +1,6 @@
-﻿namespace KnowCrow.AT.KeepItAlive
+﻿using UnityEngine;
+
+namespace KnowCrow.AT.KeepItAlive
 {
     public class GameplayController : LifecycleItem
     {
@@ -29,6 +31,11 @@
         {
             _gameContext.Tick(deltaTime);
             _view.Tick(deltaTime);
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                _gameContext.TogglePause();
+            }
         }
 
         private void OnGameStateChanged(GameStateChangeReason reason)
