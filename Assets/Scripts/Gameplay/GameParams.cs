@@ -19,15 +19,12 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private float _positiveBubbleFadeTimeSec = 10f;
         [SerializeField] private float _negativeBubbleFadeTimeSec = 10f;
 
-        [Space()]
         [Header("Musicians out of stage")]
-        [SerializeField]
-        private float _musiciansOutOfStage0 = 0.0f;
-
-        private float _musiciansOutOfStage1 = 0.0f;
-        private float _musiciansOutOfStage2 = 0.0f;
-        private float _musiciansOutOfStage3 = 0.0f;
-        private float _musiciansOutOfStage4 = 0.0f;
+        [SerializeField] private float _musiciansOutOfStage0 = 0.0f;
+        [SerializeField] private float _musiciansOutOfStage1 = 0.0f;
+        [SerializeField] private float _musiciansOutOfStage2 = 0.0f;
+        [SerializeField] private float _musiciansOutOfStage3 = 0.0f;
+        [SerializeField] private float _musiciansOutOfStage4 = 0.0f;
 
         public float SessionDurationSec => _sessionDurationSec;
         public float PassiveImpressionLossSpeed => _passiveImpressionLossSpeed;
