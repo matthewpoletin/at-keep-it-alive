@@ -87,6 +87,15 @@ namespace KnowCrow.AT.KeepItAlive
 
         private void OnBubbleFaded(BubbleWidget bubbleWidget)
         {
+            if (bubbleWidget.IsPositive)
+            {
+                _impressionModel.ImpressionLevel += _gameParams.PositiveFadePointsGain;
+            }
+            else
+            {
+                _impressionModel.ImpressionLevel -= _gameParams.NegativeFadePointsLoss;
+            }
+
             var resultingPair = _audiencePivots.FirstOrDefault(pair => pair.Value == bubbleWidget);
             _uiView.HideBubble(resultingPair.Value);
             _audiencePivots[resultingPair.Key] = null;
