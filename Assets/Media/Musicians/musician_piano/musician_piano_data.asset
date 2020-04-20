@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: musician_piano_data
   m_EditorClassIdentifier: 
   _movementSpeed: 2.5
-  _manaLossSpeed: 1
+  _manaLossSpeed: 0.01
+  _manaGainSpeed: 0.05
