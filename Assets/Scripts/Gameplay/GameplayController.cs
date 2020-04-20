@@ -10,6 +10,7 @@ namespace KnowCrow.AT.KeepItAlive
         public GameParams GameParams => _view.GameParams;
         public BandView BandView => _view.BandView;
         public AudienceView AudienceView => _view.AudienceView;
+        public AudioManager AudioManager => _view.AudioManager;
 
         private readonly GameStateObserver _gameStateObserver;
         private readonly GameContext _gameContext;

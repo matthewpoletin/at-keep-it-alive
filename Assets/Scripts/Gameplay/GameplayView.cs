@@ -10,12 +10,14 @@ namespace KnowCrow.AT.KeepItAlive
         [SerializeField] private BandView _bandView = null;
         [SerializeField] private AudienceView _audienceView = null;
         [SerializeField] private EnvironmentView _environmentView = null;
+        [SerializeField] private AudioManager _audioManager = null;
 
         public GameParams GameParams => _gameParams;
         public GameplayUiView UiView => _uiView;
         public BandView BandView => _bandView;
         public AudienceView AudienceView => _audienceView;
         public EnvironmentView EnvironmentView => _environmentView;
+        public AudioManager AudioManager => _audioManager;
 
         public void Initialize(GameplayModel model, Timer timer)
         {

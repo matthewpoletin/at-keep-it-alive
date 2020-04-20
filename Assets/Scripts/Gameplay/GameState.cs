@@ -37,7 +37,7 @@ namespace KnowCrow.AT.KeepItAlive
                 if (Input.GetMouseButtonDown(0))
                 {
                     _context.UiView.HideGameInfo();
-                    _context.ChangeState(new InitializeGamState());
+                    _context.ChangeState(new InitializeGameState());
                 }
             }
 
@@ -73,7 +73,7 @@ namespace KnowCrow.AT.KeepItAlive
             }
         }
 
-        public class InitializeGamState : GameState
+        public class InitializeGameState : GameState
         {
             public override void Initialize()
             {
@@ -93,6 +93,7 @@ namespace KnowCrow.AT.KeepItAlive
 
             public override void Dispose()
             {
+                _context.GameplayController.AudioManager.NextClip();
             }
 
             public override void TogglePauseAction()
@@ -216,7 +217,8 @@ namespace KnowCrow.AT.KeepItAlive
             {
                 if (Input.anyKeyDown)
                 {
-                    _context.ChangeState(new InitializeGamState());
+                    _context.ChangeState(new InitializeGameState());
+                    _context.GameplayController.AudioManager.NextClip();
                 }
             }
 
