@@ -14,7 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _positiveReviews:
   - _text: I'm having a blast. This night is the best thing ever happening to me!
+  - _text: I have never heard anything like this in my entire life. Damn it's awesome.
+  - _text: Waitress, pour me some more. It looks like I will stay here for a long
+      time.
+  - _text: i like the trumpet guy! wanna listen him more often.
+  - _text: Oh yeah! The Drummer seems to be experienced.
   _negativeReviews:
   - _text: This concert! What a disaster. I wish I did spend my money more wisely
       insted of comming here!
   - _text: 'What a scank is this musician Triffet! What does he think about himself?! '
+  - _text: I feel like this is a great way to end a career
+  - _text: Are you sure you are holding the trumpet in a correct way?
+  - _text: Wow, that sound really interesting. Where could you gain such an awful
+      musical taste?

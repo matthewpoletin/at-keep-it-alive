@@ -15,3 +15,4 @@ MonoBehaviour:
   _movementSpeed: 2.5
   _manaLossSpeed: 0.01
   _manaGainSpeed: 0.04
+  _tiredImpressionLoss: 0.02
