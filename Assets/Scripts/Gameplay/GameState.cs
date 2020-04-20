@@ -243,7 +243,6 @@ namespace KnowCrow.AT.KeepItAlive
                 if (Input.anyKeyDown)
                 {
                     _context.ChangeState(new InitializeGameState());
-                    _context.GameplayController.AudioManager.NextClip();
                 }
             }
 
